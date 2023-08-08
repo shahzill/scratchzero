@@ -21,8 +21,10 @@ header {
 	padding: 0 2rem;
 	background-color:  transparent;
 	color: #eee;
-		
+	position: fixed;
+	width: 100%;
 }
+
 
 
 nav{
@@ -35,8 +37,8 @@ nav a {
 	margin: 0 1rem;
 	color: #000000;
 	text-decoration: none;
-	
-	
+	font-weight: 300;
+	font-size: 130%;
 }
 
 nav a:hover {

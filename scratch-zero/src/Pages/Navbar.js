@@ -33,6 +33,7 @@ function Navbar() {
 				onClick={showNavbar}>
 				<FaBars />
 			</button>
+
 		</header>
 	);
 }

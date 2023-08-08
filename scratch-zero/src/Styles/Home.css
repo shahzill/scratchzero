@@ -11,16 +11,25 @@
   .main {
   width: 100%;
   height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
 
 video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .content {
-    padding-top: 20%;
+  padding-top: 10%;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -30,7 +39,7 @@ video {
   padding-right: 10%;
   text-align: right;
   color: white;
-  
+  z-index: -1;
 }
 
 .content h1{
@@ -60,4 +69,18 @@ video {
   height: 100%;
   background-color: rgba(0,0,0,.4);
   /* background-color: #000000cc; */
+}
+
+.comp2{
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F3F6;
+}
+
+.Header2{
+    padding-top: 5%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 3s;
 }
