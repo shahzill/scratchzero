@@ -7,6 +7,7 @@ import logo from "../Imgs/ScratchZeroLogo.png"
 
 function Navbar() {
 	const navRef = useRef();
+	const [navColor,setNavColor] = useState(false);
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
@@ -14,8 +15,19 @@ function Navbar() {
 		);
 	};
 
+	const changeBG = () => {
+		if(window.scrollY >= 350){
+			setNavColor(true)
+		}
+		else{
+			setNavColor(false)
+		}
+	}
+
+	window.addEventListener('scroll', changeBG)
+
 	return (
-		<header>
+		<header className={navColor ? 'active' : ""}>
 			<img src={logo}/>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
@@ -36,6 +48,9 @@ function Navbar() {
 
 		</header>
 	);
+	<script>
+		const
+	</script>
 }
 
 export default Navbar;
