@@ -20,7 +20,7 @@
   z-index: -1;
 }
 
-video {
+.video1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -207,58 +207,7 @@ video {
   padding-top: 2%;
 }
 
-.wrapper{
-  display: flex;
-}
-.wrapper .static-txt{
-  color: Black;
-  font-size: 30px;
-  font-weight: 400;
-}
-.wrapper .dynamic-txts{
-  margin-left: 15px;
-  height: 45px;
-  line-height: 45px;
-  overflow: hidden;
-}
-.dynamic-txts li{
-  list-style: none;
-  font-size: 30px;
-  font-weight: 500;
-  position: relative;
-  top: 0;
-  color: white;
-  animation: slide 12s steps(4) infinite;
-}
-@keyframes slide {
-  100%{
-    top: -180px;
-  }
-}
-.dynamic-txts li span{
-  position: relative;
-  margin: 2.5px 0;
-  line-height: 45px;
-  color: inherit;
-}
-.dynamic-txts li span::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #F0F3F6;
 
-  animation: typing 3s steps(20) infinite;
-}
-@keyframes typing {
-  40%, 60%{
-    left: calc(100% + 30px);
-  }
-  100%{
-    left: 0;
-  }
-}
 
 
 @media screen and (max-width: 800px) {
@@ -284,45 +233,6 @@ video {
 
   }
 
-  .wrapper .static-txt{
-    color: Black;
-    font-size: 22.5px;
-    font-weight: 400;
-  }
-  .wrapper .dynamic-txts{
-    height: 33.75px;
-    line-height: 33.75px;
-    overflow: hidden;
-  }
-  .dynamic-txts li{
-    list-style: none;
-    font-size: 22.5px;
-    font-weight: 500;
-    position: relative;
-    top: 0;
-    color: white;
-    animation: slide 12s steps(4) infinite;
-  }
-  @keyframes slide {
-    100%{
-      top: -135px;
-    }
-  }
-  .dynamic-txts li span{
-    position: relative;
-    
-    line-height: 33.75px;
-    color: inherit;
-  }
-  
-  @keyframes typing {
-    40%, 60%{
-      left: calc(100% + 30px);
-    }
-    100%{
-      left: 0;
-    }
-  }
 
 
 }
@@ -361,7 +271,7 @@ video {
   }
 
   .comp2 h1{
-    font-size: 150%;
+    font-size: 180%;
   }
 
   .slider-wrapper {
@@ -373,86 +283,71 @@ video {
     font-size: 85%;
   }
 
-  .wrapper .static-txt{
-    color: Black;
-    font-size: 15px;
-    font-weight: 400;
-  }
-  .wrapper .dynamic-txts{
-    height: 22.5px;
-    line-height: 22.5px;
-    overflow: hidden;
-  }
-  .dynamic-txts li{
-    list-style: none;
-    font-size: 15px;
-    font-weight: 500;
-    position: relative;
-    top: 0;
-    color: white;
-    animation: slide 12s steps(4) infinite;
-  }
-  @keyframes slide {
-    100%{
-      top: -90px;
-    }
-  }
-  .dynamic-txts li span{
-    position: relative;
-    
-    line-height: 22.5px;
-    color: inherit;
-  }
-  
-  @keyframes typing {
-    40%, 60%{
-      left: calc(100% + 30px);
-    }
-    100%{
-      left: 0;
-    }
-  }
-
-
-}
-.comp3{
-  width: 100%;
-    max-height: max-content;
-    background-color: white;
-    
-    z-index: -1;
-    background-image: url("../Imgs/Background4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  .subcomp3{
+    padding: 5%;
     display: flex;
+    flex-direction: column;
+  }
+
+  .About{
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 75%;
     
+  }
+  .Why-Choose-Us{
+    text-align: center;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 75%;
+  }
+
+  
+    
+}
+
+.comp3{
+  max-height:max-content;
 }
 
 .subcomp3{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-self: center;
-}
 
+}
+.video2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
 .About{
-  margin-left: 10%;
+
   text-align: right;
-  margin-right: 50%;
+  margin-right: 60%;
+  color: azure;
 }
 
 .Why-Choose-Us{
-  margin-right: 10%;
+
   text-align: left;
-  margin-left: 50%;
+  margin-left: 60%;
+  color: azure;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
 
+  .subcomp3{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+  }
   .About{
     text-align: center;
     margin-right: 10%;
@@ -465,6 +360,32 @@ video {
 
 
 }
+
+@media screen and (max-width: 900px) {
+
+  .subcomp3{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .About{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+  }
+  .Why-Choose-Us{
+    text-align: center;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+}
+
+
 
 
 

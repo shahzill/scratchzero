@@ -6,9 +6,8 @@ import Background2 from "../Imgs/Background2.jpg"
 import "../Styles/Home.css";
 import { FaArrowRight, FaTwitterSquare } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaYoutubeSquare } from "react-icons/fa";
+
+import videoBG3 from "../Imgs/VideoBG3.mp4"
 
 
 
@@ -22,7 +21,7 @@ function Home() {
 
   return (
     <>
-    <video src={videoBG1} autoPlay loop muted />
+    <video className="video1" src={videoBG1} autoPlay loop muted />
         <React.Fragment><Navbar /></React.Fragment>
     <div className='main'>    
         <div className="content">
@@ -32,6 +31,41 @@ function Home() {
         </h1>
             <p>We Care</p>
         </div>
+    </div>
+
+    
+    <div className="comp3">
+    <video className="video2" src={videoBG3} autoPlay loop muted />
+      <div className="subcomp3">
+    <div className="About">
+      <div className="Content">
+      <Fade left>
+      <h1>ABOUT US</h1>
+        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
+          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
+          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
+          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
+          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
+          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+          </Fade>
+      </div>
+    </div>
+
+    <div className="Why-Choose-Us">
+      <div className="Content">
+      <Fade right>
+      <h1>WHY CHOOSE US</h1>
+        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
+          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
+          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
+          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
+          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
+          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+        </Fade>
+      </div>
+    </div>
+    </div>
+
     </div>
     
     <div className="comp2">
@@ -75,15 +109,7 @@ function Home() {
                            
                             <div class="services-description">
                             <h2 >
-                            <div class="wrapper">
-                            <div class="static-txt"><div className="bold">Digital</div></div>
-                            <ul class="dynamic-txts">
-                              <li style={{color: "#1877F2", borderRadius: "5px"}}><span>Marketing <FaFacebookSquare /></span></li>
-                              <li style={{color: "#CD201F", borderRadius: "5px"}}><span>Marketing <FaYoutubeSquare /></span></li>
-                              <li style={{color: "#00acee", borderRadius: "5px"}}><span>Marketing <FaTwitterSquare /></span></li>
-                              <li style={{color: "#F74A4A", borderRadius: "5px"}}><span>Marketing <FaInstagramSquare /></span></li>
-                            </ul>
-                          </div>
+                              Digital Marketing
                             </h2>
                           <p>
                           Ready to conquer the digital realm and skyrocket your business? Look no further! 
@@ -119,32 +145,7 @@ function Home() {
     
     </div>
 
-    <div className="comp3">
-      <div className="subcomp3">
-    <div className="About">
-      <div className="Content">
-        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
-          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
-          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
-          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
-          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
-          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
-      </div>
-    </div>
-
-    <div className="Why-Choose-Us">
-      <div className="Content">
-        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
-          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
-          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
-          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
-          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
-          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
-      </div>
-    </div>
-    </div>
-
-    </div>
+    
     
     </>
 
