@@ -34,7 +34,7 @@ function Home() {
     </div>
 
     
-    <div className="comp3">
+    <div className="comp3" id="AboutUs">
     <video className="video2" src={videoBG3} autoPlay loop muted />
       <div className="subcomp3">
     <div className="About">
@@ -68,10 +68,10 @@ function Home() {
 
     </div>
     
-    <div className="comp2">
+    <div className="comp2" id="Our-Services">
     <Fade bottom>
-      <h1  id="Our-Services">
-        Services
+      <h1>
+        SERVICES
         
       </h1>
       </Fade>
@@ -143,6 +143,58 @@ function Home() {
       
       </Fade>
     
+    </div>
+
+    <div className="comp4">
+    <Fade bottom>
+      <h1 class="header4" id="Pricing">PRICING</h1>
+    </Fade>
+      <div className="PricingPlans">
+      <Fade left>
+        <div className="plan1">
+          <h1>Consultation</h1>
+          <p>Here the client may come and discuss their business along with
+            what he is looking to achieve and stuff. This section will have details
+            for that typa service and bla bla. I dont know what to write so I am just trying to
+            fill out space now lmao</p>
+            <ul>
+            <p>- We will offer tea and some biscuits with it</p>
+              <p>- A round dish filled with software</p>
+              <p>- Show you our softwares that we have worked on</p>
+              <p>- Have a nice chat with you on worldly matters</p>
+            </ul>
+        </div>
+      </Fade>
+      <Fade right>
+        <div className="plan2">
+          <h1>Starter Business</h1>
+          <p>Oh so you have started a new business? Alright, we 
+            can help you take it to a next level with our skills and
+            skills and skills and im increasing the word limit again</p>
+            <ul>
+            <p>- We will offer tea and some biscuits with it</p>
+              <p>- A round dish filled with software</p>
+              <p>- Show you our softwares that we have worked on</p>
+              <p>- Have a nice chat with you on worldly matters</p>
+            </ul>
+          
+        </div>
+        </Fade>
+        <Fade left>
+        <div className="plan3">
+          <h1>Consultation</h1>
+          <p>Apple wants to be your client and consider you the best option to 
+            handle the social media page and sell their prdect. Up for the task?</p>
+            <ul>
+            <p>- We will offer tea and some biscuits with it </p>
+              <p>- A round dish filled with software</p>
+              <p>- Show you our softwares that we have worked on</p>
+              <p>- Have a nice chat with you on worldly matters</p>
+            </ul>
+          
+        </div>
+        </Fade>
+      </div>
     </div>
 
     

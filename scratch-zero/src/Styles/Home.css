@@ -123,7 +123,7 @@
 
 
 .comp2 h1{
-  font-family: "Mukta", monospace;
+  
   color: black;
   font-size: 250%;
 }
@@ -207,6 +207,192 @@
   padding-top: 2%;
 }
 
+
+
+
+
+
+.comp3{
+  max-height:max-content;
+}
+
+.subcomp3{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: center;
+
+}
+.video2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.About{
+
+  text-align: right;
+  margin-right: 60%;
+  color: azure;
+}
+
+.Why-Choose-Us{
+
+  text-align: left;
+  margin-left: 60%;
+  color: azure;
+}
+
+
+
+
+
+.comp4{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 5%;
+  background-image: url("../Imgs/Background10.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+
+}
+
+.PricingPlans{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  color: azure;
+}
+
+
+.plan1{
+  max-width: 30%;
+  background-color: transparent;
+  box-shadow: #F0F3F6;
+}
+
+.plan2{
+  max-width: 30%;
+  background-color: transparent;
+}
+.plan3{
+  max-width: 30%;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .subcomp3{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+  .About{
+    text-align: center;
+    margin-right: 10%;
+    
+  }
+  .Why-Choose-Us{
+    text-align: center;
+    margin-left: 10%;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1050px) {
+  
+  .PricingPlans{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.plan1{
+  max-width: 700%;
+  background-color: transparent;
+  box-shadow: #F0F3F6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.plan2{
+  max-width: 700%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5%;
+}
+.plan3{
+  max-width: 700%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  text-align: center;
+  
+}
+.comp4 .header4{
+  font-size: 230%;
+}
+
+.comp4 h1{
+  font-size: 200%;
+}
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .subcomp3{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .About{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+  }
+  .Why-Choose-Us{
+    text-align: center;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .comp4 .header4{
+    font-size: 200%;
+  }
+
+  .comp4 h1{
+    font-size: 130%;
+  }
+
+
+}
 
 
 
@@ -304,86 +490,27 @@
     font-size: 75%;
   }
 
+  .comp4 .header4{
+    font-size: 170%;
+  }
+
+  .comp4 h1{
+    font-size: 120%;
+  }
+
+  .plan1 p, .plan2 p, .plan3 p{
+    font-size: 90%;
+  }
+
   
     
 }
 
-.comp3{
-  max-height:max-content;
-}
-
-.subcomp3{
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-self: center;
-
-}
-.video2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  z-index: -1;
-}
-.About{
-
-  text-align: right;
-  margin-right: 60%;
-  color: azure;
-}
-
-.Why-Choose-Us{
-
-  text-align: left;
-  margin-left: 60%;
-  color: azure;
-}
-
-@media screen and (max-width: 1200px) {
-
-  .subcomp3{
-    padding: 5%;
-    display: flex;
-    flex-direction: row;
-  }
-  .About{
-    text-align: center;
-    margin-right: 10%;
-    
-  }
-  .Why-Choose-Us{
-    text-align: center;
-    margin-left: 10%;
-  }
 
 
-}
-
-@media screen and (max-width: 900px) {
-
-  .subcomp3{
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .About{
-    text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    
-  }
-  .Why-Choose-Us{
-    text-align: center;
-    padding-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
 
 
-}
+
 
 
 

@@ -31,9 +31,9 @@ function Navbar() {
 			<img src={logo}/>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
+				<a href="/#AboutUs">About Us</a>
 				<a href="/#Our-Services">Services</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#Pricing">Pricing</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
