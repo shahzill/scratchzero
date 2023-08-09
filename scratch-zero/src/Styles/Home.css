@@ -43,6 +43,32 @@ video {
   color: white;
   z-index: -1;
 }
+/* 
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: rgb(62, 26, 26);
+  --color-2: rgb(84, 84, 84);
+  --color-3: #985e5d;
+}
+
+.title-word-2 {
+  --color-1: #7f6429;
+  --color-2: #5e7370;
+  --color-3: #17494D;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+} */
 
 .content h1{
     font-family: 'Public Sans';
@@ -73,13 +99,14 @@ video {
   /* background-color: #000000cc; */
 }
 
+
 .comp2{
     width: 100%;
     max-height: max-content;
     background-color: white;
     padding-bottom: 5%;
     z-index: -1;
-    background-image: url("../Imgs/Background3.jpg");
+    background-image: url("../Imgs/Background4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,10 +161,8 @@ video {
   scroll-snap-align: start;
   object-fit: cover;
   width: 100%;
-  padding-top: 2%;
   padding-bottom: 2%;
   max-height: max-content;
-  align-items: center;
   display: flex;
   justify-content: center;
   background-color: #F0F3F6;
@@ -156,7 +181,7 @@ video {
   
 }
 .slider-nav a {
-  font-size: 130%;
+  color: black;
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
@@ -175,14 +200,272 @@ video {
   font-weight: 900;
 }
 
-.Header2{
-
-
+.comp2 h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2%;
 }
 
-.Header3{
-  text-shadow: 2px 2px gray;
+.wrapper{
+  display: flex;
 }
+.wrapper .static-txt{
+  color: Black;
+  font-size: 30px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  color: white;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -180px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 2.5px 0;
+  line-height: 45px;
+  color: inherit;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #F0F3F6;
+
+  animation: typing 3s steps(20) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .content{
+    padding-right: 0%;
+  }
+
+  .content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-size: 300%;
+    
+  }
+
+  .content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 240%;
+
+  }
+
+  .wrapper .static-txt{
+    color: Black;
+    font-size: 22.5px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    height: 33.75px;
+    line-height: 33.75px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    font-size: 22.5px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    color: white;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -135px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    
+    line-height: 33.75px;
+    color: inherit;
+  }
+  
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .main {
+    background-image: url("../Imgs/Background5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .content{
+    padding-right: 0%;
+    margin-top: 20%;
+  }
+
+  .content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-size: 250%;
+    
+  }
+
+  .content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+
+  }
+
+  .comp2 h1{
+    font-size: 150%;
+  }
+
+  .slider-wrapper {
+    
+    max-width: 85%;
+  }
+
+  .services-description{
+    font-size: 85%;
+  }
+
+  .wrapper .static-txt{
+    color: Black;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .wrapper .dynamic-txts{
+    height: 22.5px;
+    line-height: 22.5px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    color: white;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -90px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    
+    line-height: 22.5px;
+    color: inherit;
+  }
+  
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+
+}
+.comp3{
+  width: 100%;
+    max-height: max-content;
+    background-color: white;
+    
+    z-index: -1;
+    background-image: url("../Imgs/Background4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    
+}
+
+.subcomp3{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: center;
+}
+
+.About{
+  margin-left: 10%;
+  text-align: right;
+  margin-right: 50%;
+}
+
+.Why-Choose-Us{
+  margin-right: 10%;
+  text-align: left;
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 900px) {
+
+  .About{
+    text-align: center;
+    margin-right: 10%;
+    
+  }
+  .Why-Choose-Us{
+    text-align: center;
+    margin-left: 10%;
+  }
+
+
+}
+
+
+
+

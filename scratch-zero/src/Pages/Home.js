@@ -4,12 +4,21 @@ import Navbar from "./Navbar";
 import videoBG1 from "../Imgs/VideoBG1.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import "../Styles/Home.css";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowRight, FaTwitterSquare } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaYoutubeSquare } from "react-icons/fa";
+
+
+
 
 import Fade from 'react-reveal/Fade';
+
 function Home() {
   
+
+
 
   return (
     <>
@@ -17,17 +26,19 @@ function Home() {
         <React.Fragment><Navbar /></React.Fragment>
     <div className='main'>    
         <div className="content">
-            <h1>ScratchZero</h1>
+        <h1 class="title">
+          <span class="title-word title-word-1">Scratch</span>
+          <span class="title-word title-word-2">Zero</span>
+        </h1>
             <p>We Care</p>
         </div>
     </div>
     
     <div className="comp2">
     <Fade bottom>
-      <h1 className="Header2">
-        <div className="Header3">
-        Our Services
-        </div>
+      <h1  id="Our-Services">
+        Services
+        
       </h1>
       </Fade>
       <Fade bottom>
@@ -63,9 +74,17 @@ function Home() {
                         <div class="box" id="slide-2">
                            
                             <div class="services-description">
-                            <h2>
-                            Digital Marketing
-                          </h2>
+                            <h2 >
+                            <div class="wrapper">
+                            <div class="static-txt"><div className="bold">Digital</div></div>
+                            <ul class="dynamic-txts">
+                              <li style={{color: "#1877F2", borderRadius: "5px"}}><span>Marketing <FaFacebookSquare /></span></li>
+                              <li style={{color: "#CD201F", borderRadius: "5px"}}><span>Marketing <FaYoutubeSquare /></span></li>
+                              <li style={{color: "#00acee", borderRadius: "5px"}}><span>Marketing <FaTwitterSquare /></span></li>
+                              <li style={{color: "#F74A4A", borderRadius: "5px"}}><span>Marketing <FaInstagramSquare /></span></li>
+                            </ul>
+                          </div>
+                            </h2>
                           <p>
                           Ready to conquer the digital realm and skyrocket your business? Look no further! 
                           Our cutting-edge Digital Marketing solutions are here to transform your brand into an unstoppable force in the online world.</p> 
@@ -89,8 +108,8 @@ function Home() {
                     
                 </div>
                 <div class="slider-nav">
-                      <a href="#slide-1"><FaArrowLeft/></a>
-                      <a href="#slide-2"><FaArrowRight/></a>
+                      <a href="#slide-1"><FaCircle/></a>
+                      <a href="#slide-2"><FaCircle/></a>
                         
                     </div>
             </section>
@@ -101,31 +120,29 @@ function Home() {
     </div>
 
     <div className="comp3">
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
+      <div className="subcomp3">
+    <div className="About">
+      <div className="Content">
+        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
+          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
+          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
+          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
+          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
+          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+      </div>
+    </div>
 
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
-     <p>asda</p>
+    <div className="Why-Choose-Us">
+      <div className="Content">
+        <p>At [Company Name], we are the architects of innovation, crafting software solutions 
+          that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
+          challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
+          design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
+          in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
+          we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+      </div>
+    </div>
+    </div>
 
     </div>
     

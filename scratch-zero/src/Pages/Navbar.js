@@ -31,7 +31,7 @@ function Navbar() {
 			<img src={logo}/>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
-				<a href="/#">My work</a>
+				<a href="/#Our-Services">Services</a>
 				<a href="/#">Blog</a>
 				<a href="/#">About me</a>
 				<button
