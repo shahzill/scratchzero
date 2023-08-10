@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Navbar from "./Navbar";
+import Contact from "./Contact";
 import videoBG1 from "../Imgs/VideoBG1.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import "../Styles/Home.css";
@@ -191,10 +192,23 @@ function Home() {
               <p>- Show you our softwares that we have worked on</p>
               <p>- Have a nice chat with you on worldly matters</p>
             </ul>
+            
           
         </div>
         </Fade>
       </div>
+      <div className="Quote">
+        <p>Fill out a form explaining your requirements and we will get back to you with a quote.</p>
+        <div class="text-box">
+          <a href="/#ContactUs" class="btn btn-white btn-        animate">click me</a>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div className="comp5">
+      <Contact></Contact>
     </div>
 
     

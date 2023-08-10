@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+	
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 5%;
+    max-height: max-content;
+    background-image: url("../Imgs/Background12.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+input[type=text] {
+    padding: 10px;
+  }
+
+.container h1{
+    padding-bottom: 5%;
+}
+
+.Info{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.writtenText{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+button{
+    margin-bottom: 5%;
+    padding: 0.5%;
+    background-color: azure;
+}
+
+button:hover{
+    background-color: rgb(1, 177, 1);
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+     .Info{
+        margin-left: 23%;
+        margin-right: 23%;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Info{
+       margin-left: 23%;
+       margin-right: 23%;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .Name{
+    margin-bottom: 7%;
+   }
+
+   .cont{
+    margin-bottom: 7%;
+   }
+
+   .Sub{
+    margin-bottom: 7%;
+   }
+}
+
