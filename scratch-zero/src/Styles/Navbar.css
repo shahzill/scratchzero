@@ -34,14 +34,14 @@ nav{
 	justify-content: center;
 }
 
-nav a {
+.Link {
 	margin: 0 1rem;
 	color: #000000;
 	text-decoration: none;
 	font-size: 130%;
 }
 
-nav a:hover {
+nav .Link:hover {
 	color: #db2b39;
 }
 
@@ -81,7 +81,8 @@ header.active{
 		top: -100vh;
 		left: 0;
 		height: 100%;
-		width: 100%;
+		width: 50%;
+		margin-left: 50%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -101,7 +102,7 @@ header.active{
 		right: 2rem;
 	}
 
-	nav a {
+	nav Link {
 		font-size: 1.5rem;
 	}
 }

@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from "react";
 import {FaBars, FaTimes} from "react-icons/fa"
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 import logo from "../Imgs/ScratchZeroLogo.png"
+import { HashLink as Link} from 'react-router-hash-link'
 
 function Navbar() {
 	const navRef = useRef();
@@ -30,11 +31,11 @@ function Navbar() {
 		<header className={navColor ? 'active' : ""}>
 			<img src={logo}/>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#AboutUs">About Us</a>
-				<a href="/#Our-Services">Services</a>
-				<a href="/#Pricing">Pricing</a>
-				<a href="/#ContactUs">Contact Us</a>
+				<Link className="Link" smooth to="/#" >Home</Link>
+				<Link className="Link" smooth to="#AboutUs" >About Us</Link>
+				<Link className="Link" smooth to="#Our-Services" >Services</Link>
+				<Link className="Link" smooth to="#Pricing" >Pricing</Link>
+				<Link className="Link" smooth to="#ContactUs" >Contact Us</Link>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

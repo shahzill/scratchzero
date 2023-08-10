@@ -4,15 +4,11 @@ import Navbar from "./Navbar";
 import Contact from "./Contact";
 import videoBG1 from "../Imgs/VideoBG1.mp4"
 import Background2 from "../Imgs/Background2.jpg"
-import "../Styles/Home.css";
+import { styles } from "../Styles/Home.css";
 import { FaArrowRight, FaTwitterSquare } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa";
-
-import videoBG3 from "../Imgs/VideoBG3.mp4"
-
-
-
-
+import { ImageBackground } from 'react-native';
+import videoBG3 from "../Imgs/VideoBG3.mp4";
 import Fade from 'react-reveal/Fade';
 
 function Home() {
@@ -69,6 +65,7 @@ function Home() {
 
     </div>
     
+
     <div className="comp2" id="Our-Services">
     <Fade bottom>
       <h1>
@@ -146,6 +143,7 @@ function Home() {
     
     </div>
 
+
     <div className="comp4">
     <Fade bottom>
       <h1 class="header4" id="Pricing">PRICING</h1>
@@ -200,7 +198,7 @@ function Home() {
       <div className="Quote">
         <p>Fill out a form explaining your requirements and we will get back to you with a quote.</p>
         <div class="text-box">
-          <a href="/#ContactUs" class="btn btn-white btn-        animate">click me</a>
+          <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
         </div>
         
       </div>
