@@ -39,7 +39,7 @@ function Home() {
     <video className="video2" src={videoBG3} autoPlay loop muted />
       <div className="subcomp3">
     <div className="About">
-      <div className="Content">
+      <div className="Content1">
       <Fade left>
       <h1>ABOUT US</h1>
         <p>At [Company Name], we are the architects of innovation, crafting software solutions 
@@ -53,7 +53,7 @@ function Home() {
     </div>
 
     <div className="Why-Choose-Us">
-      <div className="Content">
+      <div className="Content2">
       <Fade right>
       <h1>WHY CHOOSE US</h1>
         <p>At [Company Name], we are the architects of innovation, crafting software solutions 
