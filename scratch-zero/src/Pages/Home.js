@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import Navbar from "./Navbar";
 import Contact from "./Contact";
-import videoBG1 from "../Imgs/VideoBG1.mp4"
+import videoBG1 from "../Imgs/VideoBG5.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import { styles } from "../Styles/Home.css";
 import { FaArrowRight, FaTwitterSquare } from "react-icons/fa";
@@ -10,29 +10,34 @@ import { FaCircle } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
 import videoBG3 from "../Imgs/VideoBG3.mp4";
 import Fade from 'react-reveal/Fade';
+import Canvas from "./Canvas";
+import { Helmet } from "react-helmet";
+import anime from 'animejs/lib/anime.es.js'
+import ReactTyped from "react-typed";
 
 function Home() {
-  
-
-
 
   return (
     <>
+
     <video className="video1" src={videoBG1} autoPlay loop muted />
         <React.Fragment><Navbar /></React.Fragment>
-    <div className='main'>    
+    <div className='main'>  
+
         <div className="content">
+          
         <h1 class="title">
-          <span class="title-word title-word-1">Scratch</span>
-          <span class="title-word title-word-2">Zero</span>
+          ScratchZero
+          
         </h1>
-            <p>We Care</p>
+        <p><ReactTyped strings={["Beyond Infinity"]} typeSpeed={100} /></p>
         </div>
     </div>
 
+    <div className="gap"></div>
     
     <div className="comp3" id="AboutUs">
-    <video className="video2" src={videoBG3} autoPlay loop muted />
+    
       <div className="subcomp3">
     <div className="About">
       <div className="Content1">
@@ -208,6 +213,7 @@ function Home() {
     <div className="comp5">
       <Contact></Contact>
     </div>
+
 
     
     

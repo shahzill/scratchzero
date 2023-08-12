@@ -3,7 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useRef } from "react";
 import "../Styles/Navbar.css";
-import logo from "../Imgs/ScratchZeroLogo.png"
+import logo from "../Imgs/Logo.png"
 import { HashLink as Link} from 'react-router-hash-link'
 
 function Navbar() {

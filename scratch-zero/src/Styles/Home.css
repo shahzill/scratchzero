@@ -11,8 +11,14 @@
     padding: 0;
     
   }
-  
 
+
+  
+  .gap{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+  }
   .main {
   width: 100%;
   height: 100vh;
@@ -75,14 +81,14 @@
 
 .content h1{
     font-family: 'Public Sans';
-    color: black;
+    color: azure;
     font-size: 400%;
     animation: fadeIn 3s;
 }
 
 .content p{
     font-family: 'Public Sans';
-    color: black;
+    color: azure;
     font-size: 300%;
     animation: fadeIn 3s;
 }
@@ -216,6 +222,7 @@
 .comp3{
   width: 100%;
   max-height: max-content;
+  background-color: black;
 }
 
 .subcomp3{
@@ -524,7 +531,7 @@
 
 @media screen and (max-width: 600px) {
 
-  .main {
+  /* .main {
     background-image: url("../Imgs/Background5.jpg");
     background-size: cover;
     background-position: center;
@@ -538,6 +545,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  } */
+
+  .gap{
+    height: 40vh;;
   }
   .content{
     padding-right: 0%;
