@@ -15,20 +15,20 @@
 
 
   
-  .gap{
-    width: 100%;
-    height: 60vh;
-    background-color: black;
-  }
+.gap{
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+}
+
 .main {
-   
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
 }
 
 .title{
@@ -120,14 +120,14 @@
 .comp2{
     width: 100%;
     max-height: max-content;
-    background-color: white;
+    /* background-color: white; */
     padding-bottom: 5%;
     z-index: -1;
-    background-image: url("../Imgs/Background4.jpg");
+    /* background-image: url("../Imgs/Background4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .Header2{
@@ -141,7 +141,7 @@
 
 .comp2 h1{
   
-  color: black;
+  color: white;
   font-size: 250%;
 }
 
@@ -181,7 +181,7 @@
   max-height: max-content;
   display: flex;
   justify-content: center;
-  background-color: #26313b;
+  background-color: #3f3f3f;
   color: white;
   z-index: -1;
 }
@@ -287,7 +287,7 @@
   max-height: max-content;
   padding-top: 5%;
   padding-bottom: 10%;
-  background-image: url("../Imgs/bgtest.jpg");
+  /* background-image: url("../Imgs/bgtest.jpg"); */
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -687,7 +687,7 @@
 
 
 .Content1, .Content2, .box, .plan1, .plan2, .plan3{
-  background-color: #26313b;
+  background-color: #3f3f3f;
   border-radius: 25px;
   padding: 4px;
 }

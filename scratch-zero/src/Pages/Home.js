@@ -77,7 +77,7 @@ function Home() {
         <React.Fragment><Navbar /></React.Fragment>
     <div className='main'>  
         <div className="content">
-           <div className="">
+           <div className="heroitems">
             <h1  className='title'>
               ScratchZero
             </h1>
@@ -100,6 +100,7 @@ function Home() {
 
         {/* about section */}
         <div className="About">
+        
           <div className="Content1">
             <Fade left>
             <h1>ABOUT US</h1>
@@ -132,7 +133,9 @@ function Home() {
     </div>
     
     {/* third section */}
+    
     <div className="comp2" id="Our-Services">
+    
       <Fade bottom>
         <h1>
           SERVICES
