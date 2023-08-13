@@ -116,7 +116,11 @@
   /* background-color: #000000cc; */
 }
 
-
+span :hover{
+  color: black;
+  font-size: 20px;
+  cursor: none;
+}
 .comp2{
     width: 100%;
     max-height: max-content;

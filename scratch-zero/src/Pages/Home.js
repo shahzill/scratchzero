@@ -18,7 +18,7 @@ import { motion } from 'framer-motion';
 import Particles from '../components/Particles';
 
 // SPLIT TEXT ATTEMPT:
-// import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
+import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
 
 function Home() {
   // code from 
@@ -118,12 +118,12 @@ function Home() {
           <div className="Content2">
             <Fade right>
             <h1>WHY CHOOSE US</h1>
-              <p>At [Company Name], we are the architects of innovation, crafting software solutions 
+              <SplitText className="testinghover">At [Company Name], we are the architects of innovation, crafting software solutions 
                 that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
                 challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
                 design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
                 in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
-                we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+                we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</SplitText>
               </Fade>
             </div>
         </div>

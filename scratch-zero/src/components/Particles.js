@@ -54,6 +54,14 @@ const ParticlesComponent = (props) => {
         size: {
           value: { min: 1, max: 3 }, // let's randomize the particles size a bit
         },
+        number:{
+            density: {
+                enable: true,
+                area: 800,
+            },
+            value: 50.
+        
+        },
       },
     };
   }, []);
