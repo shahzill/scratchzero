@@ -39,7 +39,7 @@ const ContactUs = () => {
                     cols="30" rows="10"></textarea>
                     </div>
                     
-                    <button type='submit'>Send Message</button>
+                    <button type='submit' >Send Message</button>
                 </form>
             </div>
         </section>      
