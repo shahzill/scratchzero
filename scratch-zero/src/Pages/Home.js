@@ -8,7 +8,7 @@ import { styles } from "../Styles/Home.css";
 import { FaArrowRight, FaTwitterSquare } from "react-icons/fa";
 import { FaCircle } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
-import videoBG3 from "../Imgs/VideoBG3.mp4";
+
 import Fade from 'react-reveal/Fade';
 import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
@@ -94,7 +94,7 @@ function Home() {
     
     {/* second section */}
     <div className="comp3" id="AboutUs">
-
+    <video className="video2" src={videoBG1} autoPlay loop muted />
       {/* content */}
       <div className="subcomp3">
 
