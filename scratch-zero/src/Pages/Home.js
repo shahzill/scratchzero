@@ -14,26 +14,83 @@ import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
 import anime from 'animejs/lib/anime.es.js'
 import ReactTyped from "react-typed";
+import { motion } from 'framer-motion';
+import Particles from '../components/Particles';
+
+// SPLIT TEXT ATTEMPT:
+// import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
 
 function Home() {
+  // code from 
+  // state for mouse position
+//   const [mousePosition, setMousePosition] = useState({
+//     x: 0,
+//     y: 0,
+//   });
+
+//   useEffect(() => {
+//     const mouseMove = (e) => {
+//       setMousePosition({
+//         x: e.clientX,
+//         y: e.clientY,
+//       });
+//     };
+
+//     window.addEventListener("mousemove", mouseMove);
+
+//     return () => {
+//       window.removeEventListener("mousemove", mouseMove);
+//     };
+//   }, []);
+
+//    // Set cursor variant to change color on hover text
+// const [cursorVariant, setCursorVariant] = useState("default");
+
+// // Variant animation
+// const variants = {
+
+// // default animation (applies onMouseLeave)
+//   default: {
+//     x: mousePosition.x - 8,
+//     y: mousePosition.y - 8,
+//   },
+
+// // text animation (applies onMouseEnter) 
+//   text: {
+//     height: 150,
+//     width: 150,
+//     x: mousePosition.x - 70,
+//     y: mousePosition.y - 70,
+//     backgroundColor: "aqua",
+//     mixBlendMode: "difference",
+//   },
+// };
+
+// function for textLeave and textEnter
+// const textEnter = () => setCursorVariant("text");
+// const textLeave = () => setCursorVariant("default");
 
   return (
     <>
     {/* website hero */}
-    <video className="video1" src={videoBG1} autoPlay loop muted />
+    {/* <video className="video1" src={videoBG1} autoPlay loop muted /> */}
         <React.Fragment><Navbar /></React.Fragment>
     <div className='main'>  
         <div className="content">
-          
-        <h1 class="title">
-          ScratchZero
-          
-        </h1>
-        <p><ReactTyped strings={["Beyond Infinity"]} typeSpeed={100} /></p>
+           <div className="">
+            <h1  className='title'>
+              ScratchZero
+            </h1>
+            <p><ReactTyped strings={["Beyond Infinity"]} typeSpeed={100} /></p>
+          </div>
+       
         </div>
+   
+     
+        <Particles id="tsparticles" />
     </div>
 
-    <div className="gap"></div>
+    {/* <div className="gap"></div> */}
     
     {/* second section */}
     <div className="comp3" id="AboutUs">
@@ -153,54 +210,51 @@ function Home() {
 
     {/* fourth section */}
     <div className="comp4">
-    <Fade bottom>
-      <h1 class="header4" id="Pricing">PRICING</h1>
-    </Fade>
-      <div className="PricingPlans">
-      <Fade left>
-        <div className="plan1">
-          <h1>Consultation</h1>
-          <p>Here the client may come and discuss their business along with
-            what he is looking to achieve and stuff. This section will have details
-            for that typa service and bla bla. I dont know what to write so I am just trying to
-            fill out space now lmao</p>
-            <ul>
-            <p>- We will offer tea and some biscuits with it</p>
-              <p>- A round dish filled with software</p>
-              <p>- Show you our softwares that we have worked on</p>
-              <p>- Have a nice chat with you on worldly matters</p>
-            </ul>
-        </div>
+      <Fade bottom>
+        <h1 class="header4" id="Pricing">PRICING</h1>
       </Fade>
-      <Fade right>
-        <div className="plan2">
-          <h1>Starter Business</h1>
-          <p>Oh so you have started a new business? Alright, we 
-            can help you take it to a next level with our skills and
-            skills and skills and im increasing the word limit again</p>
+      <div className="PricingPlans">
+        <Fade left>
+          <div className="plan1">
+            <h1>Consultation</h1>
+            <p>Here the client may come and discuss their business  along with
+              what he is looking to achieve and stuff. This section will have details
+              for that typa service and bla bla. I dont know what to write so I am just trying to
+              fill out space now lmao</p>
             <ul>
-            <p>- We will offer tea and some biscuits with it</p>
+              <p>- We will offer tea and some biscuits with it</p>
               <p>- A round dish filled with software</p>
               <p>- Show you our softwares that we have worked on</p>
               <p>- Have a nice chat with you on worldly matters</p>
             </ul>
-          
-        </div>
+          </div>
+        </Fade>
+        <Fade right>
+          <div className="plan2">
+            <h1>Starter Business</h1>
+            <p>Oh so you have started a new business? Alright, we 
+              can help you take it to a next level with our skills and
+              skills and skills and im increasing the word limit again</p>
+            <ul>
+              <p>- We will offer tea and some biscuits with it</p>
+              <p>- A round dish filled with software</p>
+              <p>- Show you our softwares that we have worked on</p>
+              <p>- Have a nice chat with you on worldly matters</p>
+            </ul>   
+          </div>
         </Fade>
         <Fade left>
-        <div className="plan3">
-          <h1>Consultation</h1>
-          <p>Apple wants to be your client and consider you the best option to 
-            handle the social media page and sell their prdect. Up for the task?</p>
+          <div className="plan3">
+            <h1>Consultation</h1>
+            <p>Apple wants to be your client and consider you the best option to 
+              handle the social media page and sell their prdect. Up for the task?</p>
             <ul>
-            <p>- We will offer tea and some biscuits with it </p>
+              <p>- We will offer tea and some biscuits with it </p>
               <p>- A round dish filled with software</p>
               <p>- Show you our softwares that we have worked on</p>
               <p>- Have a nice chat with you on worldly matters</p>
             </ul>
-            
-          
-        </div>
+          </div>
         </Fade>
       </div>
       <div className="Quote">
@@ -208,9 +262,7 @@ function Home() {
         <div class="text-box">
           <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
         </div>
-        
       </div>
-      
     </div>
 
     {/* fifth section */}

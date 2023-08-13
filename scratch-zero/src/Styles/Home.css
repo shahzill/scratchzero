@@ -4,6 +4,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
 
 
 * {
@@ -19,14 +20,19 @@
     height: 60vh;
     background-color: black;
   }
-  .main {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -1;
+.main {
+   
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.title{
+  color: white;
 }
 
 .video1 {
@@ -52,6 +58,8 @@
   color: white;
   z-index: -1;
 }
+
+
 /* 
 .title-word {
   animation: color-animation 4s linear infinite;
@@ -173,7 +181,8 @@
   max-height: max-content;
   display: flex;
   justify-content: center;
-  background-color: #F0F3F6;
+  background-color: #26313b;
+  color: white;
   z-index: -1;
 }
 .slider-nav {
@@ -182,14 +191,14 @@
   column-gap: 1rem;
   position: absolute;
   bottom: 1.25rem;
-  color: black;
+  color: white;
   left: 50%;
   transform: translateX(-50%);
   
   
 }
 .slider-nav a {
-  color: black;
+  color: white;
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
@@ -202,6 +211,10 @@
   margin-right: 5%;
   padding-bottom: 2rem;
   z-index: -1;
+}
+
+.services-description p{
+  padding: 5px;
 }
 
 .bold{
@@ -274,7 +287,7 @@
   max-height: max-content;
   padding-top: 5%;
   padding-bottom: 10%;
-  background-image: url("../Imgs/Background10.png");
+  background-image: url("../Imgs/bgtest.jpg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,6 +306,7 @@
   align-content: center;
   justify-content: space-between;
   color: azure;
+  gap: 5px;
 }
 
 
@@ -643,3 +657,37 @@
 
 
 
+
+
+/* for the mouse */
+/* *,
+*::before,
+*::after {
+  cursor: none;
+}
+.main {
+
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.cursor {
+  background-color: #111;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+} */
+
+
+.Content1, .Content2, .box, .plan1, .plan2, .plan3{
+  background-color: #26313b;
+  border-radius: 25px;
+  padding: 4px;
+}
