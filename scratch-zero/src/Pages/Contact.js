@@ -20,7 +20,7 @@ const ContactUs = () => {
   
     return (
         <section>
-            <div className='container' id='ContactUs'>
+            <div className='contactContainer' id='ContactUs'>
                 <h1>CONTACT US</h1>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='Info'>

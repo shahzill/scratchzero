@@ -15,6 +15,7 @@ const ParticlesComponent = (props) => {
         // zIndex: -15,
         color: "#000", // this sets a background color for the canvas
       },
+      
       fullScreen: {
         enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
         zIndex: -10, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
@@ -32,7 +33,7 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            quantity: 10, // number of particles to add on click
+            quantity: 1, // number of particles to add on click
           },
           repulse: {
             distance: 100, // distance of the particles from the cursor
@@ -59,7 +60,7 @@ const ParticlesComponent = (props) => {
                 enable: true,
                 area: 800,
             },
-            value: 50.
+            value: 35.
         
         },
       },

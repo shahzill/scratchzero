@@ -35,6 +35,12 @@
   color: white;
 }
 
+.Red{
+  color: #f4543c;
+}
+
+
+
 .video1 {
   width: 100%;
   height: 100%;
@@ -60,32 +66,7 @@
 }
 
 
-/* 
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
 
-.title-word-1 {
-  --color-1: rgb(62, 26, 26);
-  --color-2: rgb(84, 84, 84);
-  --color-3: #985e5d;
-}
-
-.title-word-2 {
-  --color-1: #7f6429;
-  --color-2: #5e7370;
-  --color-3: #17494D;
-}
-
-@keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
-} */
 
 .content h1{
     font-family: 'Public Sans';
@@ -99,6 +80,17 @@
     color: azure;
     font-size: 300%;
     animation: fadeIn 3s;
+}
+
+.content .a{
+  padding-top: 3%;
+  font-size: 200%;
+}
+
+.text-box1{
+  padding-top: 2%;
+  display: flex;
+  
 }
 
 @keyframes fadeIn {
@@ -146,6 +138,7 @@ span :hover{
 .comp2 h1{
   
   color: white;
+  background-color: transparent;
   font-size: 250%;
 }
 
@@ -158,18 +151,17 @@ span :hover{
   padding-top: 2%;
   margin: 0 auto;
   z-index: -1;
+  
 }
 .slider {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 0.5rem;
-  -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
-  scrollbar-width: none; /* Hide scrollbar Firefox */
+  
   max-height: max-content;
   z-index: -1;
+
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .slider::-webkit-scrollbar {
@@ -185,10 +177,13 @@ span :hover{
   max-height: max-content;
   display: flex;
   justify-content: center;
-  background-color: #3f3f3f;
+  padding-top: 2%;
+
   color: white;
   z-index: -1;
 }
+
+
 .slider-nav {
   padding-top: 3%;
   display: flex;
@@ -208,6 +203,7 @@ span :hover{
 }
 .slider-nav a:hover {
   transform: scale(1.3);
+  color: #f4543c;
 }
 
 .services-description{
@@ -232,17 +228,17 @@ span :hover{
   padding-top: 5%;
   padding-bottom: 2%;
 }
-.video2{
-  z-index: 1;
-  resize: vertical;
+.video2 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   position: absolute;
   z-index: -1;
+  resize: vertical;
 }
 .comp3{
   width: 100%;
+  min-height: 100vh;
   max-height: max-content;
   /* background-color: black; */
 }
@@ -260,7 +256,7 @@ span :hover{
 .About{
 
   text-align: right;
-  margin-right: 60%;
+  margin-right: 55%;
   color: azure;
   margin-top: 2%;
   margin-left: 3%;
@@ -269,11 +265,61 @@ span :hover{
 .Why-Choose-Us{
 
   text-align: left;
-  margin-left: 60%;
+  margin-left: 55%;
   color: azure;
   margin-bottom: 2%;
   margin-right: 3%;
+  background-color: transparent;
 }
+
+
+
+.Social-Links{
+
+  text-align: center;
+  margin-right: 4%;
+  margin-left: 4%;
+  color: azure;
+  margin-top: 2%;
+
+}
+.Social-Links a{
+  text-decoration: none;
+  color: azure;
+}
+.scale1{
+  font-size: 130%;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+.scale2{
+  font-size: 130%;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+.scale3{
+  margin-top: 1%;
+  font-size: 130%;
+}
+
+
+.scale1:hover{
+  transform: scale(2);
+}
+.scale2:hover{
+  transform: scale(2);
+}
+.scale3:hover{
+  transform: scale(2);
+}
+
+.comp5{
+  width: 100%;
+  max-height: max-content;
+}
+
+
+
 /* 
 .imgBackground: {
   width: '100%',
@@ -290,7 +336,7 @@ span :hover{
   max-height: max-content;
   padding-top: 5%;
   padding-bottom: 10%;
-  /* background-image: url("../Imgs/bgtest.jpg"); */
+   background-image: url("../Imgs/Background10.png"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -316,7 +362,7 @@ span :hover{
 .plan1{
   max-width: 30%;
   background-color: transparent;
-  box-shadow: #F0F3F6;
+  
 }
 
 .plan2{
@@ -336,7 +382,7 @@ span :hover{
   display: flex;
   align-content: center;
   justify-content: center;
-  
+
 }
 
 .btn:link,
@@ -361,8 +407,8 @@ span :hover{
 }
 
 .btn-white {
-    background-color: azure;
-    color: #777;
+    background-color: #f4543c;
+    color: azure;
 }
 
 .btn::after {
@@ -379,7 +425,7 @@ span :hover{
 }
 
 .btn-white::after {
-    background-color: azure;
+    background-color: #f4543c;
 }
 
 .btn:hover::after {
@@ -412,6 +458,223 @@ span :hover{
   align-content: center;
   justify-content: center;
   text-align: center;
+}
+
+.comp5{
+  background-color: black;
+  background-image: url("../Imgs/Background17.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: max-content;
+
+
+}
+
+
+.comp5 h1{
+  
+  color: white;
+  background-color: transparent;
+  font-size: 250%;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.cards{
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.container {
+  width: 350px;
+  height: 500px;
+  perspective: 800px;
+  padding: 3% 0;
+}
+
+.container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front1 {
+  background-image: url("../Imgs/Card1.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back1 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front2 {
+  background-image: url("../Imgs/Card2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.back2 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front3 {
+  background-image: url("../Imgs/Card3.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back3 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front4 {
+  background-image: url("../Imgs/Card4.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back4 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front5 {
+  background-image: url("../Imgs/Card5.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back5 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front6 {
+  background-image: url("../Imgs/Card6.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back6 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front7 {
+  background-image: url("../Imgs/Card7.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back7 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.front8 {
+  background-image: url("../Imgs/Card8.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.back8 {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+
+.plan1, .plan2, .plan3{
+  border: 3px solid #f4543c;
+  -moz-box-shadow: 0 0 8px azure;
+  -webkit-box-shadow: 0 0 8px azure;
+  box-shadow: 0 0 8px azure;
+  border-radius: 25px;
+  padding: 4px;
+  background-color: black;
+} 
+
+.pcontent{
+  padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -479,6 +742,17 @@ span :hover{
   font-size: 200%;
 }
 
+.About{
+  text-align: left;
+  
+  
+}
+.Why-Choose-Us{
+  text-align: left;
+  padding-top: 2%;
+  
+}
+
 
 }
 
@@ -492,16 +766,26 @@ span :hover{
   }
 
   .About{
-    text-align: center;
+    text-align: left;
     margin-right: 5%;
     margin-left: 5%;
     
   }
   .Why-Choose-Us{
-    text-align: center;
+    text-align: left;
     padding-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .About{
+    text-align: left;
+    
+    
+  }
+  .Why-Choose-Us{
+    text-align: left;
+    padding-top: 2%;
+    
   }
 
   .comp4 .header4{
@@ -660,8 +944,6 @@ span :hover{
 
 
 
-
-
 /* for the mouse */
 /* *,
 *::before,
@@ -689,8 +971,3 @@ span :hover{
 } */
 
 
-.Content1, .Content2, .box, .plan1, .plan2, .plan3{
-  background-color: #3f3f3f;
-  border-radius: 25px;
-  padding: 4px;
-}

@@ -3,7 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useRef } from "react";
 import "../Styles/Navbar.css";
-import logo from "../Imgs/Logo.png"
+import logo from "../Imgs/RedLogoo.png"
 import { HashLink as Link} from 'react-router-hash-link'
 
 function Navbar() {
@@ -34,6 +34,7 @@ function Navbar() {
 				<Link className="Link" smooth to="/#" >Home</Link>
 				<Link className="Link" smooth to="#AboutUs" >About Us</Link>
 				<Link className="Link" smooth to="#Our-Services" >Services</Link>
+				<Link className="Link" smooth to="#Portfolio" >Portfolio</Link>
 				<Link className="Link" smooth to="#Pricing" >Pricing</Link>
 				<Link className="Link" smooth to="#ContactUs" >Contact Us</Link>
 				<button
