@@ -13,6 +13,7 @@ import SEOM from "../Imgs/SEOMarketing.png"
 import WEBD from "../Imgs/WEBD.png"
 import WEBD2 from "../Imgs/WEBD2.png"
 import DGM from "../Imgs/DGM.png"
+import card1 from "../Imgs/Card5.jpeg"
 import Fade from 'react-reveal/Fade';
 import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
@@ -173,97 +174,60 @@ function Home() {
           SERVICES
         </h1>
       </Fade>
-      {/* <Fade bottom>
-      <section class="project-slider">
-        <div class="slider-wrapper">
-        
-          <div class="slider">
-            <div class="box" id="slide-1">
-              <div class="services-description">
-                <h2>
-                  Web Development
-                </h2>
-                <p>
-                  Not enough web precense? 
-                  Looking to turn your online vision into reality? Search no more! 
-                  Our top-notch web development team is here to craft stunning, 
-                  high-performance websites that captivate, engage, and convert.
-                </p> 
-                <p><a className="bold">Why Choose Us?</a></p>
-                
-                <li><a className="bold Red">Customized Perfection:</a> Your website, your rules! We specialize in tailoring unique online solutions that reflect your brand's personality and goals.</li>
-                <li><a className="bold Red">Sleek and Speedy:</a> Say goodbye to slow-loading sites. Our experts optimize for speed, ensuring your visitors stay hooked from the first click.</li>
-                <li><a className="bold Red">Sleek and Speedy:</a> Say goodbye to slow-loading sites. Our experts optimize for speed, ensuring your visitors stay hooked from the first click.</li>
-                <li><a className="bold Red">Responsive Magic:</a> Whether it's a smartphone, tablet, or desktop, your site will look flawless on every device, providing an impeccable user experience.</li>
-                <li><a className="bold Red">SEO Superpowers:</a> Stand out in the digital jungle with SEO-friendly development that boosts your visibility on search engines. Get ready to climb those rankings.</li>
-                <li><a className="bold Red">Future-Proofed Tech:</a> We stay ahead of the curve, utilizing cutting-edge technologies to future-proof your site, keeping you relevant and competitive.</li>
-
-                <p>
-                Ready to make your mark on the web? Let's turn your dreams into clicks, leads, and success! Contact us today for a consultation that could change your digital destiny!
-                </p>
-
-              </div>
-            </div>
-              <div class="box" id="slide-2">
-                
-                  <div class="services-description">
-                  <h2 >
-                    Digital Marketing
-                  </h2>
-                <p>
-                Ready to conquer the digital realm and skyrocket your business? Look no further! 
-                Our cutting-edge Digital Marketing solutions are here to transform your brand into an unstoppable force in the online world.</p> 
-                  <p className="bold">Why Choose Us?</p> 
-                  
-                  <li><a className="bold Red">Targeted Strategies:</a> Dominate your niche with tailor-made marketing strategies that hit the bullseye every time.</li>
-                  <li><a className="bold Red">Skyrocket Sales:</a> Watch your revenue soar as we optimize your online channels for maximum conversions.</li>
-                  <li><a className="bold Red">Engage Audiences:</a> Capture hearts and minds with compelling content that sparks meaningful conversations.</li>
-                  <li><a className="bold Red">Insights from Data-Driven Analytics:</a> Drive your decisions with data. Our analytics provide valuable insights for campaign optimization and user behavior analysis.</li>
-                  <li><a className="bold Red">Dynamic Email Marketing Campaigns:</a> Nurture leads and retain customers through compelling email campaigns. Our emails captivate, inform, and drive action.</li>
-                  <li><a className="bold Red">E-Commerce Excellence:</a> Maximize your online store's potential. Our strategies drive traffic, enhance conversions, and refine the shopping experience.</li>
-
-                  <p>
-                  Elevate your brand with <a className="bold">ScratchZero!</a> Contact us today for a consultation that could change your digital destiny!
-                  </p>
-                  </div>
-                  
-              </div>
-          </div>
-                    
-                    
-                </div>
-                <div class="slider-nav">
-                      <a href="#slide-1"><FaCircle/></a>
-                      <a href="#slide-2"><FaCircle/></a>
-                        
-                    </div>
-      </section>
-        
-      
-      </Fade> */}
-      <div className="services1">
-      <div className="Service1">
-      <img src={SEOM}></img>
-        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
-      </div>
-      <div className="Service2">
-      <img src={WEBD}></img>
-        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
-      </div>
-      </div>
-      <div className="services1">
-      <div className="Service3">
-      <img src={WEBD2}></img>
-        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
-      </div>
-      <div className="Service4">
-      <img src={DGM}></img>
-        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
-      </div>
-      </div>
-      
     
-    </div>
+
+      <div className="wrapper2">
+        <div className="card2 img1">
+          
+          <div className="information1">
+            <h1>SEO OPTIMIZATION</h1>
+            <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
+          </div>
+          
+        </div>
+        <div className="card2 img2">
+
+          <div className="information1">
+            <h1>WEB DEVELOPMENT</h1>
+            <p>Elevate your digital presence with our expert web development services.
+               We specialize in crafting dynamic, user-centric websites that captivate your audience and
+                drive meaningful engagement.</p>
+          </div>
+        </div>
+        <div className="card2 img3">
+          
+          <div className="information1">
+            <h1>UI/UX Design</h1>
+            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
+               but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
+          </div>
+        </div>
+        <div className="card2 img4">
+          
+          <div className="information1">
+            <h1>Digital Marketing</h1>
+            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+          </div>
+        </div>
+        <div className="card2 img5">
+          
+          <div className="information1">
+            <h1>Digital Marketing</h1>
+            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+          </div>
+        </div>
+        <div className="card2 img6">
+          
+          <div className="information1">
+            <h1>Digital Marketing</h1>
+            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+          </div>
+        </div>
+      </div>
+    
+    </div> 
+
+
 
     <div className="comp5" id="Portfolio">
     <Fade bottom>

@@ -41,7 +41,7 @@
 
 .Red{
   color: #f4543c;
-  font-family: 'Roboto';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -365,65 +365,193 @@ span :hover{
   max-height: max-content;
 }
 
-.services1{
-  margin-right: 10%;
-  margin-left: 10%;
+
+.Services{
   display: flex;
-  flex-direction: row;
-  margin-bottom: 10%;
-  
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 5%;
+  padding-top: 5%;
+  justify-content: center;
 }
 
-.services2{
-  margin-right: 10%;
-  margin-left: 10%;
-  display: flex;
-  flex-direction: row;
-  
+
+.Services p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.Services h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  justify-content: left;
+}
+
+.Services img{
+  height: 100px;
+  width: 100px;
 }
 
 .Service1{
-  border-radius: 25px;
+  width: 350px;
+  height: 400px;
 
+  
+}
+.Service2{
+  width: 350px;
+  height: 400px;
+
+  
+}
+.Service3{
+  
+  width: 350px;
+  height: 400px;
+
+}
+.Service4{
+  width: 350px;
+  height: 400px;
+}
+
+.Service1:hover{
+  
+}
+.Service2:hover{
+
+}
+.Service3:hover{
+
+}
+.Service4:hover{
+    
+}
+
+
+.wrapper2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  gap: 5%;
+}
+
+.card2{
+  width: 350px;
+  height: 500px;
+  padding: 2rem 1rem;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transform: 0.5s ease-in-out;
+  margin-bottom: 5%;
+
+}
+.img1{
+  background-image: url("../Imgs/Card1.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.img2{
+  background-image: url("../Imgs/Card2.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.img3{
+  background-image: url("../Imgs/Card3.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.img4{
+  background-image: url("../Imgs/Card4.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.img5{
+  background-image: url("../Imgs/Card5.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+.img6{
+  background-image: url("../Imgs/Card6.jpeg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+
+.card2:hover{
+  transform: translateY(20px);
+}
+
+.card2:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(27,27,31,0.966999299719888) 8%, rgba(244,84,60,0.8465511204481793) 48%);
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+  border-radius: 5%;
+}
+
+.card2:hover:before{
+  opacity: 1;
+}
+
+.card2 h1{
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 90%;
+}
+
+ .card2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.card2 .information1{
+  position: relative;
+  z-index: 3;
   color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+} 
+
+.card2:hover .information1{
+  opacity: 1;
+  transform:  translateY(0px);
 }
-
-.Service1 img{
-  height: 150px;
-  width: 150px;
-}
-
-.Service3 img{
-  height: 150px;
-  width: 150px;
-}
-
-
-.Service2 img{
-  height: 150px;
-  width: 150px;
-}
-
-
-.Service4 img{
-  height: 150px;
-  width: 150px;
-}
-
-
-.Service2 p{
-  color: white;
-}
-
-.Service3 p{
-  color: white;
-  padding-right: 5%;
-}
-
-.Service4 p{
-  color: white;
-}
-
 
 
 .comp4{
