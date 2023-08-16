@@ -7,9 +7,12 @@ import videoBG2 from "../Imgs/VideoBG6.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import { styles } from "../Styles/Home.css";
 import { FaInstagramSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
-import { FaCircle } from "react-icons/fa";
+import { FaCircle, FaFlag } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
-
+import SEOM from "../Imgs/SEOMarketing.png"
+import WEBD from "../Imgs/WEBD.png"
+import WEBD2 from "../Imgs/WEBD2.png"
+import DGM from "../Imgs/DGM.png"
 import Fade from 'react-reveal/Fade';
 import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
@@ -106,31 +109,36 @@ function Home() {
       <div className="subcomp3">
 
         {/* about section */}
+        <Fade left>
         <div className="About">
         
           <div className="Content1">
-            <Fade left>
-            <h1>ABOUT US</h1>
-            <p>At <strong><span className="Red">ScratchZero</span></strong>, we are the architects of innovation, crafting software solutions 
-              that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
-              challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
-              design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
-              in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
-              we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
-            </Fade>
+            
+            <h1>
+            <span className="AlllH">OUR </span>
+              <span className="AboutH">MISSION </span>
+            </h1>
+            <p>At <strong><span className="Red">ScratchZero</span></strong>, we are dedicated to <strong><span className="Red">revolutionizing </span></strong> the way businesses and individuals engage with technology. 
+            Our mission is clear: to <strong><span className="Red">empower our clients </span></strong> with <strong><span className="Red">innovative software solutions </span></strong> 
+             that cut through complexities and pave the way for <strong><span className="Red">unparalleled growth</span></strong>. 
+            We are not just a software company; we are your partner in progress.</p>
+            
           </div>
+          
         </div>
+        </Fade>
         {/*  why us */}
         <div className="Why-Choose-Us">
           <div className="Content2">
             <Fade right>
-            <h1>WHY CHOOSE US</h1>
-              <p>At <strong><span className="Red">ScratchZero</span></strong>, we are the architects of innovation, crafting software solutions 
-                that redefine possibilities. Our dedicated team of experts collaborates seamlessly to transform complex 
-                challenges into elegant, user-centric solutions. Through custom software development, intuitive user experience 
-                design, and cutting-edge technologies like AI and machine learning, we empower our clients to thrive 
-                in the digital landscape. With an unwavering commitment to quality and a passion for pushing boundaries, 
-                we invite you to join us in shaping a future where software transforms the way we work, connect, and create.</p>
+            <h1>
+              <span className="WhyH">OUR </span>
+              <span className="ChooseH">VISION</span>
+             
+            </h1>
+            <p>Our <strong><span className="Red">relentless pursuit of excellence </span></strong>drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the power of <strong><span className="Red">modern technologies </span></strong>,
+               we craft digital experiences that transcend the ordinary and define the extraordinary. Our <strong><span className="Red">commitment to your sucess </span></strong> is unwavering, and we are 
+               here to guide you on your journey to success.</p>
               </Fade>
             </div>
         </div>
@@ -165,7 +173,7 @@ function Home() {
           SERVICES
         </h1>
       </Fade>
-      <Fade bottom>
+      {/* <Fade bottom>
       <section class="project-slider">
         <div class="slider-wrapper">
         
@@ -232,7 +240,28 @@ function Home() {
       </section>
         
       
-      </Fade>
+      </Fade> */}
+      <div className="services1">
+      <div className="Service1">
+      <img src={SEOM}></img>
+        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
+      </div>
+      <div className="Service2">
+      <img src={WEBD}></img>
+        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
+      </div>
+      </div>
+      <div className="services1">
+      <div className="Service3">
+      <img src={WEBD2}></img>
+        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
+      </div>
+      <div className="Service4">
+      <img src={DGM}></img>
+        <p>relentless pursuit of excellence drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the</p>
+      </div>
+      </div>
+      
     
     </div>
 
@@ -390,9 +419,6 @@ function Home() {
     <div className="comp5">
       <Contact></Contact>
     </div>
-
-
-    
     
     </>
 
