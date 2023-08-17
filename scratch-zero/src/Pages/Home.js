@@ -21,11 +21,48 @@ import anime from 'animejs/lib/anime.es.js'
 import ReactTyped from "react-typed";
 import { motion } from 'framer-motion';
 import Particles from '../components/Particles';
+import Lottie from 'react-lottie';
+import SEO from "../Imgs/SEO.json"
+import WEBDEVELOPMENT from "../Imgs/WEBDEVELOPMENT.json"
+import UI from "../Imgs/UI.json"
+import DIGITAL from "../Imgs/DIGITAL.json"
 
 // SPLIT TEXT ATTEMPT:
 import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
 
 function Home() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: SEO,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true, 
+    animationData: WEBDEVELOPMENT,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+  const defaultOptions3 = {
+    loop: true,
+    autoplay: true, 
+    animationData: UI,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+  const defaultOptions4 = {
+    loop: true,
+    autoplay: true, 
+    animationData: DIGITAL,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   // code from 
   // state for mouse position
 //   const [mousePosition, setMousePosition] = useState({
@@ -175,14 +212,75 @@ function Home() {
         </h1>
       </Fade>
     
-
+      <div className="services">
+        <Fade left>
+          <div className="service1">
+          
+            <div className="scontent">
+            <Lottie options={defaultOptions}
+              height={100}
+              width={100}
+              />
+            <h1>SEO OPTIMIZATION</h1>
+            
+            <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
+           
+            </div>
+           
+          </div>
+        </Fade>
+        
+        <Fade left>
+          
+          <div className="service3">
+          <div className="scontent">
+          <Lottie options={defaultOptions3}
+              height={100}
+              width={100}
+              />
+            <h1>UI/UX DESIGNING</h1>
+            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional, 
+              but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
+          
+            </div>
+          </div>
+          <div className="service4">
+          <div className="scontent">
+          <Lottie options={defaultOptions4}
+              height={100}
+              width={100}
+              />
+            <h1>DIGITAL MARKETING</h1>
+            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+          
+            </div>
+          </div>
+        </Fade>
+        <Fade right>
+          <div className="service2">
+            <div className="scontent">
+            <Lottie options={defaultOptions2}
+              height={120}
+              width={120}
+              />
+            <h1>WEB DEVELOPMENT</h1>
+            <p>Elevate your digital presence with our expert web development services. 
+              We specialize in crafting dynamic, user-centric websites that captivate your audience and drive meaningful engagement.</p>
+              
+            </div>
+            
+          </div>
+        </Fade>
+      </div>
+{/* 
       <div className="wrapper2">
         <div className="card2 img1">
-          
           <div className="information1">
+          
             <h1>SEO OPTIMIZATION</h1>
             <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
           </div>
+          
           
         </div>
         <div className="card2 img2">
@@ -223,7 +321,7 @@ function Home() {
             <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
           </div>
         </div>
-      </div>
+      </div> */}
     
     </div> 
 
@@ -317,12 +415,44 @@ function Home() {
       <Fade bottom>
         <h1 class="header4" id="Pricing">PRICING</h1>
       </Fade>
-      <div className="PricingPlans">
+      <div className="wrapper2">
+        <div className="card2 img1">
+          <div className="information1">
+          
+            <h1>STANDARD PACKAGE</h1>
+            <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
+          </div>
+          
+          
+        </div>
+        <div className="card2 img2">
+
+          <div className="information1">
+            <h1>MEDIUM PACKAGE</h1>
+            <p>Elevate your digital presence with our expert web development services.
+               We specialize in crafting dynamic, user-centric websites that captivate your audience and
+                drive meaningful engagement.</p>
+          </div>
+        </div>
+        <div className="card2 img3">
+          
+          <div className="information1">
+            <h1>PRO PACKAGE</h1>
+            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
+               but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
+          </div>
+        </div>
+      </div>
+      {/* <div className="PricingPlans">
         <Fade left>
           <div className="plan1">
           
             <div className="pcontent">
             <h1>Consultation</h1>
+            <Lottie options={defaultOptions}
+              height={200}
+              width={200}
+              />
             <p>Here the client may come and discuss their business  along with
               what he is looking to achieve and stuff. This section will have details
               for that typa service and bla bla. I dont know what to write so I am just trying to
@@ -370,7 +500,7 @@ function Home() {
             </div>
           </div>
         </Fade>
-      </div>
+      </div> */}
       <div className="Quote">
         <p>Fill out a form explaining your requirements and we will get back to you with a quote.</p>
         <div class="text-box">

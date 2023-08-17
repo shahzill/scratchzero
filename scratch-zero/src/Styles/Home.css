@@ -125,7 +125,7 @@ span :hover{
 
     max-height: max-content;
     /* background-color: white; */
-    padding-bottom: 5%;
+
     z-index: -1;
      background-image: url("../Imgs/Whiteeee.jpeg");
     background-size: cover;
@@ -378,7 +378,7 @@ span :hover{
 
 .card2{
   width: 350px;
-  height: 500px;
+  height: 350px;
   padding: 2rem 1rem;
   background: #fff;
   position: relative;
@@ -389,29 +389,34 @@ span :hover{
   margin-bottom: 5%;
 
 }
-.img1{
-  background-image: url("../Imgs/Card1.jpeg");
+.lottie{
+  width: 350px;
+  height: 500px;
+  
+}
+ .img1{
+  background-image: url("../Imgs/SEO.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5%;
-}
+}  
 .img2{
-  background-image: url("../Imgs/Card2.jpeg");
+  background-image: url("../Imgs/Development.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5%;
 }
 .img3{
-  background-image: url("../Imgs/Card3.jpeg");
+  background-image: url("../Imgs/UI.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5%;
 }
 .img4{
-  background-image: url("../Imgs/Card4.jpeg");
+  background-image: url("../Imgs/Digital.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -445,7 +450,7 @@ span :hover{
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(27,27,31,0.966999299719888) 8%, rgba(244,84,60,0.8465511204481793) 48%);
+  background: linear-gradient(0deg, rgba(49,4,79,0.8968108361508667) 0%, rgba(150,36,28,1) 100%);
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
@@ -460,6 +465,8 @@ span :hover{
   margin-right: 2%;
   margin-left: 2%;
   width: 90%;
+  font-size: 45px;
+  line-height: 45px;
 }
 
  .card2 img{
@@ -479,6 +486,8 @@ span :hover{
   opacity: 0;
   transform: translateY(30px);
   transition: 0.5s all;
+  font-size: 20px;
+  line-height: 30px;
 } 
 
 .card2:hover .information1{
@@ -505,35 +514,110 @@ span :hover{
 
 }
 
-.PricingPlans{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
+.services{
+  margin-left: 3%;
+  margin-right: 3%;
+
   margin-bottom: 5%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0%;
   align-content: center;
   justify-content: space-between;
   color: azure;
-  gap: 5px;
+  justify-content: center;
+  align-content: center;
 }
 
 
-.plan1{
-  max-width: 30%;
+.service1{
+  width: 300px;
+
+  max-height: max-content;
   background-color: transparent;
-  
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5%;
 }
 
-.plan2{
-  max-width: 30%;
+
+
+.service2{
+  width: 300px;
+  min-height: 550px;
+  max-height: max-content;
   background-color: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 5%;
 }
-.plan3{
-  max-width: 30%;
+.service3{
+  width: 300px;
+  min-height: 550px;
+  max-height: max-content;
   background-color: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5%;
 }
 
+
+.service4{
+  width: 300px;
+  min-height: 550px;
+  max-height: max-content;
+  background-color: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  border-radius: 5%;
+    margin-bottom: 2%;
+
+}
+
+.service1:hover h1{
+  color: #f4543c;
+}
+.service2:hover h1{
+  color: #f4543c;
+}
+.service3:hover h1{
+  color: #f4543c;
+}
+.service4:hover h1{
+  color: #f4543c;
+}
+.service1:hover {
+  color: #f4543c;
+  scale: 1.1;
+}
+.service2:hover {
+  color: #f4543c;
+  scale: 1.1;
+}
+.service3:hover {
+  color: #f4543c;
+  scale: 1.1;
+}
+.service4:hover {
+  color: #f4543c;
+  scale: 1.1;
+}
+
+.services p{
+  line-height: 30px;
+  font-size: 17px;
+  text-align: center;
+}
+.services h1{
+
+  text-align: center;
+}
 .Quote{
   padding-top: 5%;
 }
@@ -822,7 +906,7 @@ span :hover{
   gap: 5rem;
 }
 
-
+/* 
 .plan1, .plan2, .plan3{
   border: 3px solid #f4543c;
   -moz-box-shadow: 0 0 8px azure;
@@ -831,7 +915,7 @@ span :hover{
   border-radius: 25px;
   padding: 4px;
   background-color: black;
-} 
+}  */
 
 .pcontent{
   padding: 10px;
@@ -1096,38 +1180,5 @@ span :hover{
 
 
 
-
-
-
-
-
-
-
-
-/* for the mouse */
-/* *,
-*::before,
-*::after {
-  cursor: none;
-}
-.main {
-
-  font-family: "Mochiy Pop One", sans-serif;
-}
-
-.title {
-  font-size: 5rem;
-}
-
-.cursor {
-  background-color: #111;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-} */
 
 
