@@ -568,9 +568,9 @@ function Home() {
     </div>
 
     {/* fifth section */}
-    <div className="comp5">
+    <div className="comp6">
       <h1>CONTACT US</h1>
-      <div className="subcomp5">
+      <div className="subcomp6">
       <div className="contact"><Contact></Contact></div>
       <div className="contact-quote">
         <h1>Lets have a chat</h1>
