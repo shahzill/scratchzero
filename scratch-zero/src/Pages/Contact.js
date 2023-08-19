@@ -21,7 +21,7 @@ const ContactUs = () => {
     return (
         <section>
             <div className='contactContainer' id='ContactUs'>
-                <h1>CONTACT US</h1>
+                <h1><span>Fill out the form</span></h1>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='Info'>
                     <input className='Name' type="text"

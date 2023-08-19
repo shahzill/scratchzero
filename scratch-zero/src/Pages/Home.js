@@ -124,17 +124,22 @@ function Home() {
             <span>Scratch</span> 
             <span className="Red">Zero</span>
             </h1>
-            <p><ReactTyped strings={["Beyond Infinity"]} typeSpeed={100} /></p>
+            <p><ReactTyped className="typing" strings={["Beyond Infinity"]} typeSpeed={100} /></p>
             <div className="a">Solution to all your IT problems</div>
             
-          </div>
 
-       
+          </div>
+          <div class="text-box mainbtn">
+          <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
+        </div>
+
+          
         </div>
         
    
-     
+        
         <Particles id="tsparticles" />
+        
 
     </div>
 
@@ -161,14 +166,16 @@ function Home() {
              that cut through complexities and pave the way for <strong><span className="Red">unparalleled growth</span></strong>. 
             We are not just a software company; we are your partner in progress.</p>
             
+            
           </div>
           
         </div>
         </Fade>
         {/*  why us */}
+        <Fade right>
         <div className="Why-Choose-Us">
           <div className="Content2">
-            <Fade right>
+            
             <h1>
               <span className="WhyH">OUR </span>
               <span className="ChooseH">VISION</span>
@@ -177,9 +184,10 @@ function Home() {
             <p>Our <strong><span className="Red">relentless pursuit of excellence </span></strong>drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the power of <strong><span className="Red">modern technologies </span></strong>,
                we craft digital experiences that transcend the ordinary and define the extraordinary. Our <strong><span className="Red">commitment to your sucess </span></strong> is unwavering, and we are 
                here to guide you on your journey to success.</p>
-              </Fade>
+              
             </div>
         </div>
+        </Fade>
         
 
       </div>
@@ -415,7 +423,57 @@ function Home() {
       <Fade bottom>
         <h1 class="header4" id="Pricing">PRICING</h1>
       </Fade>
-      <div className="wrapper2">
+      <div className="wrapper3">
+        <div className="single-price">
+          <h1>BASIC</h1>
+          <div className="price">
+            <h2>$15/month</h2>
+          </div>
+          <div className="deals">
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+          </div>
+          <div class="text-box">
+          <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
+        </div>
+        </div>
+        <div className="single-price">
+          <h1>STANDARD</h1>
+          <div className="price">
+            <h2>$150/month</h2>
+          </div>
+          <div className="deals">
+            <h4>Lorem ipsum dolor ksfabahdsjfbjhsbfshjdb fjhsd fbshjd</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+          </div>
+          <div class="text-box">
+          <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
+        </div>
+        </div>
+        <div className="single-price">
+          <h1>PRO</h1>
+          <div className="price">
+            <h2>$1500/month</h2>
+          </div>
+          <div className="deals">
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+            <h4>Lorem ipsum dolor</h4>
+          </div>
+          <div class="text-box">
+          <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
+        </div>
+        </div>
+      </div>
+      {/* <div className="wrapper2">
         <div className="card2 img1">
           <div className="information1">
           
@@ -442,7 +500,7 @@ function Home() {
                but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="PricingPlans">
         <Fade left>
           <div className="plan1">
@@ -511,7 +569,14 @@ function Home() {
 
     {/* fifth section */}
     <div className="comp5">
-      <Contact></Contact>
+      <h1>CONTACT US</h1>
+      <div className="subcomp5">
+      <div className="contact"><Contact></Contact></div>
+      <div className="contact-quote">
+        <h1>Lets have a chat</h1>
+        <p>lets talk about something and contact us sand again i am trying to fill the word limit</p>
+      </div>
+      </div>
     </div>
     
     </>
