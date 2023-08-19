@@ -222,7 +222,7 @@ function Home() {
     
       <div className="services">
         <Fade left>
-          <div className="service1">
+          <div className="service">
           
             <div className="scontent">
             <Lottie options={defaultOptions}
@@ -231,7 +231,7 @@ function Home() {
               />
             <h1>SEO OPTIMIZATION</h1>
             
-            <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
+            <p>Our <span className="Red">comprehensive</span> SEO optimization ensures your website stands out in the <span className="Red">digital landscape</span>, reaching the right audience at the right time.</p>
            
             </div>
            
@@ -240,40 +240,71 @@ function Home() {
         
         <Fade left>
           
-          <div className="service3">
+          <div className="service">
           <div className="scontent">
           <Lottie options={defaultOptions3}
               height={100}
               width={100}
               />
             <h1>UI/UX DESIGNING</h1>
-            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional, 
-              but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
+            <p>Our UI/UX design merges <span className="Red">creativity and user-centricity</span>, ensuring your digital platforms are not just functional, 
+              but truly captivating experiences. Let us transform <span className="Red">your vision</span> into a visually stunning and intuitive <span className="Red">reality.</span></p>
           
             </div>
           </div>
-          <div className="service4">
+          <div className="service">
           <div className="scontent">
           <Lottie options={defaultOptions4}
               height={100}
               width={100}
               />
             <h1>DIGITAL MARKETING</h1>
-            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+            <p>Through strategic digital marketing, we <span className="Red">boost</span> your online presence, connecting your brand with the right audience and driving tangible <span className="Red">growth</span>.</p>
           
             </div>
           </div>
         </Fade>
         <Fade right>
-          <div className="service2">
+          <div className="service">
             <div className="scontent">
             <Lottie options={defaultOptions2}
               height={120}
               width={120}
               />
             <h1>WEB DEVELOPMENT</h1>
-            <p>Elevate your digital presence with our expert web development services. 
-              We specialize in crafting dynamic, user-centric websites that captivate your audience and drive meaningful engagement.</p>
+            <p><span className="Red">Elevate</span> your digital presence with our expert web development services. 
+              We <span className="Red">specialize</span> in crafting dynamic, user-centric websites that captivate your <span className="Red">audience</span> and drive meaningful engagement.</p>
+              
+            </div>
+            
+          </div>
+        </Fade>
+      
+        <Fade right>
+          <div className="service">
+            <div className="scontent">
+            <Lottie options={defaultOptions2}
+              height={120}
+              width={120}
+              />
+            <h1>WEB DEVELOPMENT</h1>
+            <p><span className="Red">Elevate</span> your digital presence with our expert web development services. 
+              We <span className="Red">specialize</span> in crafting dynamic, user-centric websites that captivate your <span className="Red">audience</span> and drive meaningful engagement.</p>
+              
+            </div>
+            
+          </div>
+        </Fade>
+        <Fade right>
+          <div className="service">
+            <div className="scontent">
+            <Lottie options={defaultOptions2}
+              height={120}
+              width={120}
+              />
+            <h1>WEB DEVELOPMENT</h1>
+            <p><span className="Red">Elevate</span> your digital presence with our expert web development services. 
+              We <span className="Red">specialize</span> in crafting dynamic, user-centric websites that captivate your <span className="Red">audience</span> and drive meaningful engagement.</p>
               
             </div>
             
@@ -573,7 +604,7 @@ function Home() {
       <div className="subcomp6">
       <div className="contact"><Contact></Contact></div>
       <div className="contact-quote">
-        <h1>Lets have a chat</h1>
+        <h1>Lets have a <span className="Red">chat</span></h1>
         <p>lets talk about something and contact us sand again i am trying to fill the word limit</p>
       </div>
       </div>

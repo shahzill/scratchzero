@@ -30,11 +30,11 @@ const ContactUs = () => {
     return (
         <section>
             <div className='contactContainer' id='ContactUs'>
-                <h1><span>Fill out the form</span></h1>
+                <h1>Fill out the<span className='Red'> form</span></h1>
                 <form ref={form} onSubmit={sendEmail}>
                 {showAlert&&
                     <Alert className='alert' type='success' 
-                    description='Your message was sent successfully. We will get back to you shortly'/>}
+                    description='Your message was sent successfully. We will get back to you shortly.'/>}
                     <div className='Info'>
                     <input className='Name' type="text"
                     placeholder='Full Name'
