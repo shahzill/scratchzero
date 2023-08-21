@@ -54,10 +54,10 @@
   top: 0;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  text-align: center;
+  align-content: right;
+  text-align: right;
   color: white;
-
+  padding-right: 10%;
 }
 
 .heroitems{
@@ -90,6 +90,13 @@
   
 }
 
+.text-box2{
+  display: flex;
+  justify-content: right;
+
+  padding-top: 3%;
+}
+
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -112,18 +119,20 @@ span :hover{
   cursor: none;
 }
 .comp2{
-    width: 100%;
+    width: 94%;
     min-height: 100vh;
-
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 3%;
     max-height: max-content;
-    /* background-color: white; */
+     background-color: white;
 
     z-index: -1;
-     background-image: url("../Imgs/Whiteeee.jpeg");
+     /* background-image: url("../Imgs/Whiteeee.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;  */
 }
 
 .Header2{
@@ -137,7 +146,7 @@ span :hover{
 
 .comp2 h1{
   
-  color: azure;
+  color: black;
   background-color: transparent;
   font-size: 250%;
 }
@@ -221,6 +230,7 @@ span :hover{
   font-weight: 900;
 }
 
+
 .comp2 h1{
   display: flex;
   justify-content: center;
@@ -263,8 +273,8 @@ span :hover{
   padding-left: 2%;
   padding-right: 2%;
 
-  background: linear-gradient(110deg, #591F16 60%, transparent 60%);
-  border-radius: 5%;
+  /* background: linear-gradient(110deg, #591F16 60%, transparent 60%);
+  border-radius: 5%; */
   padding-bottom: 1%;
 }
 
@@ -275,7 +285,7 @@ span :hover{
 
 .About .AboutH{
   font-size: 170%;
-
+  
 }
 
 .Why-Choose-Us{
@@ -289,8 +299,8 @@ span :hover{
   padding-right: 2%;
 
   padding-bottom: 1%;
-  background: linear-gradient(70deg, transparent 40%,  #591F16 40%);
-  border-radius: 5%;
+  /* background: linear-gradient(70deg, transparent 40%,  #591F16 40%);
+  border-radius: 5%; */
 }
 
 .Why-Choose-Us .ChooseH{
@@ -323,6 +333,7 @@ span :hover{
   margin-left: 4%;
   color: azure;
   margin-top: 4%;
+  margin-bottom: 3%;
 
 }
 .Social-Links a{
@@ -330,18 +341,18 @@ span :hover{
   color: azure;
 }
 .scale1{
-  font-size: 130%;
+  font-size: 180%;
   margin-top: 1%;
   margin-right: 2%;
 }
 .scale2{
-  font-size: 130%;
+  font-size: 180%;
   margin-top: 1%;
   margin-right: 2%;
 }
 .scale3{
   margin-top: 1%;
-  font-size: 130%;
+  font-size: 180%;
 }
 
 
@@ -373,59 +384,67 @@ span :hover{
 
 .card2{
   width: 350px;
-  height: 350px;
+  height: 450px;
+  max-height: max-content;
   padding: 2rem 1rem;
-  background: #fff;
+  background-color: black;
   position: relative;
   display: flex;
   align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
   transform: 0.5s ease-in-out;
   margin-bottom: 5%;
+  padding-bottom: 3%;
 
 }
-.lottie{
-  width: 350px;
-  height: 500px;
-  
-}
+
  .img1{
-  background-image: url("../Imgs/SEO.png");
+
+   background-image: url("../Imgs/ServicesBG.jpeg"); 
   background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex;
+    max-height: max-content;
+    flex-direction: column;
+    padding-bottom: 3%;
+    overflow: hidden;
     border-radius: 5%;
 }  
+
 .img2{
-  background-image: url("../Imgs/Development.png");
+  background-image: url("../Imgs/WEBDEVELOPMENT.png"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: azure;
     border-radius: 5%;
 }
 .img3{
-  background-image: url("../Imgs/UI.png");
+  background-image: url("../Imgs/ServicesBG.jpeg"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     border-radius: 5%;
 }
 .img4{
-  background-image: url("../Imgs/Digital.png");
+  background-image: url("../Imgs/ServicesBG.jpeg"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5%;
 }
 .img5{
-  background-image: url("../Imgs/Card5.jpeg");
+  background-image: url("../Imgs/ServicesBG.jpeg"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5%;
 }
 .img6{
-  background-image: url("../Imgs/Card6.jpeg");
+  background-image: url("../Imgs/ServicesBG.jpeg"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -445,7 +464,7 @@ span :hover{
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(49,4,79,0.8968108361508667) 0%, rgba(150,36,28,1) 100%);
+  background: linear-gradient(0deg, rgba(3,0,25,1) 0%, rgba(62,11,147,0.8590029761904762) 100%);
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
@@ -459,9 +478,10 @@ span :hover{
 .card2 h1{
   margin-right: 2%;
   margin-left: 2%;
-  width: 90%;
-  font-size: 45px;
+  width: 100%;
+  font-size: 40px;
   line-height: 45px;
+  color: azure;
 }
 
  .card2 img{
@@ -494,13 +514,16 @@ span :hover{
 .comp4{
   display: flex;
   flex-direction: column;
-
+  width: 94%;
+  margin-right: 3%;
+  margin-left: 3%;
+  border-radius: 5%;
   align-items: center;
   min-height: 100vh;
   max-height: max-content;
   padding-top: 5%;
   padding-bottom: 10%;
-   background-image: url("../Imgs/Background10.png"); 
+   background-image: url("../Imgs/Background24.jpeg"); 
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -672,7 +695,7 @@ span :hover{
 
     max-height: max-content;
     width: 100%;
-    background-color: black;
+
 
 }
 
@@ -921,13 +944,13 @@ span :hover{
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
-  gap: 5%;
+  gap: 2%;
   margin-top: 5%;
   justify-content: center;
 }
 
 .single-price{
-  width: 200px;
+  width: 250px;
   margin-bottom: 5%;
   background-color: #262626;
   height: max-content;
@@ -935,7 +958,9 @@ span :hover{
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
   transition: 0.9s;
   padding-bottom: 5%;
+  border-radius: 5%;
 }
+
 
 .price{
   width: 100%;
@@ -945,18 +970,23 @@ span :hover{
   justify-content: center;
 }
 
+.price h2{
+  font-size: 130%;
+}
+
 .single-price h1{
-  font-size: 18px;
+  font-size: 20px;
   color: azure;
   line-height: 3;
 }
 
 .deals h4{
-  font-size: 14px;
+  font-size: 17px;
   color: azure;
   font-weight: normal;
   line-height: 2;
 }
+
 
 .price h2{
   font-size: 28px;

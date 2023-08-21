@@ -129,11 +129,10 @@ function Home() {
             
 
           </div>
-          <div class="text-box mainbtn">
+          <div class="text-box2 mainbtn">
           <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
         </div>
 
-          
         </div>
         
    
@@ -194,7 +193,7 @@ function Home() {
       <div className="Social-Links">
         <div className="Content3">
             <Fade bottom>
-            <h3>Join us on social media and stay in the loop with all the latest happenings!</h3>
+            {/* <h3>Join us on social media and stay in the loop with all the latest happenings!</h3> */}
             <a href="https://www.linkedin.com/in/shahzill-naveed/" target="_blank">
             < FaLinkedin className="scale1 Red" />
             </a>
@@ -214,13 +213,14 @@ function Home() {
     
     <div className="comp2" id="Our-Services">
     
+
       <Fade bottom>
         <h1>
           SERVICES
         </h1>
       </Fade>
     
-      <div className="services">
+      {/* <div className="services">
         <Fade left>
           <div className="service">
           
@@ -311,56 +311,84 @@ function Home() {
           </div>
         </Fade>
       </div>
-{/* 
+  */}
       <div className="wrapper2">
+      
         <div className="card2 img1">
+
+        
           <div className="information1">
           
-            <h1>SEO OPTIMIZATION</h1>
+          <Lottie options={defaultOptions}
+              height={150}
+              width={150}
+              />
             <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
+            
           </div>
+          
+          <h1>SEO OPTIMIZATION</h1>
           
           
         </div>
-        <div className="card2 img2">
+        <div className="card2 img1">
 
           <div className="information1">
-            <h1>WEB DEVELOPMENT</h1>
+          <Lottie options={defaultOptions2}
+              height={120}
+              width={170}
+              />
             <p>Elevate your digital presence with our expert web development services.
                We specialize in crafting dynamic, user-centric websites that captivate your audience and
                 drive meaningful engagement.</p>
           </div>
+          <h1>WEB DEVELOPMENT</h1>
         </div>
-        <div className="card2 img3">
+        <div className="card2 img1">
           
           <div className="information1">
-            <h1>UI/UX Design</h1>
+          <Lottie options={defaultOptions3}
+              height={90}
+              width={170}
+              />
             <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
                but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
           </div>
+          <h1>UI/UX DESIGNING</h1>
         </div>
-        <div className="card2 img4">
+        <div className="card2 img1">
           
           <div className="information1">
-            <h1>Digital Marketing</h1>
+          <Lottie options={defaultOptions4}
+              height={140}
+              width={170}
+              />
             <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
           </div>
+          <h1>DIGITAL MARKETING</h1>
         </div>
-        <div className="card2 img5">
+        <div className="card2 img1">
           
           <div className="information1">
-            <h1>Digital Marketing</h1>
+          <Lottie options={defaultOptions4}
+              height={140}
+              width={170}
+              />
             <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
           </div>
-        </div>
-        <div className="card2 img6">
+          <h1>DIGITAL MARKETING</h1>
+        </div><div className="card2 img1">
           
           <div className="information1">
-            <h1>Digital Marketing</h1>
+          <Lottie options={defaultOptions4}
+              height={140}
+              width={170}
+              />
             <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
           </div>
+          <h1>DIGITAL MARKETING</h1>
         </div>
-      </div> */}
+      </div> 
     
     </div> 
 
@@ -590,12 +618,7 @@ function Home() {
           </div>
         </Fade>
       </div> */}
-      <div className="Quote">
-        <p>Fill out a form explaining your requirements and we will get back to you with a quote.</p>
-        <div class="text-box">
-          <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
-        </div>
-      </div>
+     
     </div>
 
     {/* fifth section */}
