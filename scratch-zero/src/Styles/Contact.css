@@ -10,9 +10,9 @@
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
     padding-top: 3%;
     max-height: max-content;
     /* background-image: url("../Imgs/darkneonskyline.jpg"); */
@@ -51,7 +51,7 @@
 
 input[type=text] {
     padding: 10px;
-    border-radius: 15px;
+
   }
 
 .container h1{
@@ -61,10 +61,17 @@ input[type=text] {
 .Red{
     color: #f4543c;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
+
+.contactHeading{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin-left: 20%;
+}
   
 .Info{
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 30%;
     display: flex;
     flex-direction: column;
@@ -75,21 +82,25 @@ input[type=text] {
 .writtenText{
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-left: 20%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea{
     width: 50%;
-    border-radius: 15px;
+
 }
 
-button{
+.CButton{
     margin-bottom: 2%;
     padding: 0.5%;
     color: azure;
     background-color: #f4543c;
     font-family: Arial, Helvetica, sans-serif;
-
+    border: none;
+    padding: 1%;
+    border-radius: 3%;
+    margin-left: 20%;
 }
 
 button:hover {
@@ -98,6 +109,49 @@ button:hover {
     cursor: pointer;
 }
 
+.Info .name{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.FName{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f4543c solid 2px;
+    color: azure;
+}
+
+.LName{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f4543c solid 2px;
+    color: azure;
+}
+
+.cont{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f4543c solid 2px;
+    color: azure;
+}
+
+.sub{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f4543c solid 2px;
+    color: azure;
+}
+.query{
+    background-color: transparent;
+    border: none;
+    border-bottom: #f4543c double 2px;
+    color: azure;
+    
+}
 
 
 @keyframes moveInBottom {
@@ -127,8 +181,15 @@ button:hover {
        display: flex;
        flex-direction: column;
    }
+   .Info .name{
+    display: flex;
+    flex-direction: column;
+}
 
-   .Name{
+   .FName{
+    margin-bottom: 7%;
+   }
+   .LName{
     margin-bottom: 7%;
    }
 

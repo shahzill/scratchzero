@@ -30,15 +30,22 @@ const ContactUs = () => {
     return (
         <section>
             <div className='contactContainer' id='ContactUs'>
+                <div className='contactHeading'>
                 <h1>Fill out the<span className='Red'> form</span></h1>
+                </div>
                 <form ref={form} onSubmit={sendEmail}>
                 {showAlert&&
                     <Alert className='alert' type='success' 
                     description='Your message was sent successfully. We will get back to you shortly.'/>}
                     <div className='Info'>
-                    <input className='Name' type="text"
-                    placeholder='Full Name'
-                    name='user_name' required />
+                    <div className='name'>
+                    <input className='FName' type="text"
+                    placeholder='First Name'
+                    name='user_fname' required />
+                    <input className='LName' type="text"
+                    placeholder='Last Name'
+                    name='user_lname' required />
+                    </div>
                     <input className='cont' type="text"
                     placeholder='Your Email or Phone Number'
                     name='user_email' required />
@@ -47,11 +54,11 @@ const ContactUs = () => {
                     name='user_subject' required />
                     </div>
                     <div className='writtenText'>
-                    <textarea placeholder='  Your Query' name='message' required 
+                    <textarea className='query' placeholder='  Your Query' name='message' required 
                     cols="30" rows="10"></textarea>
                     </div>
                     
-                    <button type='submit' >Send Message</button>
+                    <button className="CButton" type='submit' >Send Message</button>
                    
                 </form>
             </div>

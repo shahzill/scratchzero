@@ -130,7 +130,7 @@ function Home() {
 
           </div>
           <div class="text-box2 mainbtn">
-          <a href="/#ContactUs" class="btn btn-white btn-        animate">Contact Us</a>
+          <a href="/#ContactUs" class="btn btn-white1 btn-        animate">Contact Us</a>
         </div>
 
         </div>
@@ -157,7 +157,7 @@ function Home() {
           <div className="Content1">
             
             <h1>
-            <span className="AlllH">OUR </span>
+            <span className="AllH">OUR </span>
               <span className="AboutH">MISSION </span>
             </h1>
             <p>At <strong><span className="Red">ScratchZero</span></strong>, we are dedicated to <strong><span className="Red">revolutionizing </span></strong> the way businesses and individuals engage with technology. 
@@ -206,18 +206,32 @@ function Home() {
               </Fade>
             </div>
         </div>
+        
+        
 
     </div>
     
     {/* third section */}
+
     
     <div className="comp2" id="Our-Services">
-    
+
+
+    <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+            >
+            <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"></path>
+        </svg>
 
       <Fade bottom>
+        <div className="ServicesH">
         <h1>
           SERVICES
         </h1>
+        </div>
       </Fade>
     
       {/* <div className="services">
@@ -389,6 +403,7 @@ function Home() {
           <h1>DIGITAL MARKETING</h1>
         </div>
       </div> 
+
     
     </div> 
 
@@ -396,9 +411,11 @@ function Home() {
 
     <div className="comp5" id="Portfolio">
     <Fade bottom>
+    <div className="PortfolioH">
         <h1>
           PORTFOLIO
         </h1>
+    </div>
       </Fade>
     <div className="cards">
     <div class="container">
@@ -480,7 +497,7 @@ function Home() {
     {/* fourth section */}
     <div className="comp4">
       <Fade bottom>
-        <h1 class="header4" id="Pricing">PRICING</h1>
+        <h1 className="PricingH" id="Pricing">PRICING</h1>
       </Fade>
       <div className="wrapper3">
         <div className="single-price">
@@ -623,12 +640,14 @@ function Home() {
 
     {/* fifth section */}
     <div className="comp6">
-      <h1>CONTACT US</h1>
+      <div className="ContactH"><h1>CONTACT US</h1></div>
       <div className="subcomp6">
       <div className="contact"><Contact></Contact></div>
       <div className="contact-quote">
-        <h1>Lets have a <span className="Red">chat</span></h1>
-        <p>lets talk about something and contact us sand again i am trying to fill the word limit</p>
+        <div className="heading"><h1>Lets have a <span className="Red">chat</span></h1></div>
+        <p>We're here to connect, collaborate, and create solutions. Whether you have questions, 
+          ideas, or a project in mind, we're excited to hear from you. Reach out to us through the channels below, 
+          and let's embark on a journey to transform your concepts into reality.</p>
       </div>
       </div>
     </div>
