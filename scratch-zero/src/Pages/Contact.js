@@ -17,7 +17,7 @@ const ContactUs = () => {
         .then((result) => {
             console.log(result.text);
             setTimeout(() => { 
-               setShowAlert(true)
+               message.success("Message Sent!")
             });
         }, (error) => {
             console.log(error.text);
@@ -34,9 +34,7 @@ const ContactUs = () => {
                 <h1>Fill out the<span className='Red'> form</span></h1>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                {showAlert&&
-                    <Alert className='alert' type='success' 
-                    description='Your message was sent successfully. We will get back to you shortly.'/>}
+                
                     <div className='Info'>
                     <div className='name'>
                     <input className='FName' type="text"
@@ -58,7 +56,7 @@ const ContactUs = () => {
                     cols="30" rows="10"></textarea>
                     </div>
                     
-                    <button className="CButton" type='submit' >Send Message</button>
+                    <button className="CButton" type='submit' >Send</button>
                    
                 </form>
             </div>

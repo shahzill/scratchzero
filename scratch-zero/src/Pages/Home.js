@@ -332,11 +332,12 @@ function Home() {
 
         
           <div className="information1">
-          
-          <Lottie options={defaultOptions}
+          <div className="lottie1">
+          <Lottie className="lottie" options={defaultOptions}
               height={150}
-              width={150}
+              width={175}
               />
+              </div>
             <p>Our comprehensive SEO optimization ensures your website stands out in the digital landscape, reaching the right audience at the right time.</p>
             
           </div>
@@ -348,23 +349,27 @@ function Home() {
         <div className="card2 img1">
 
           <div className="information1">
-          <Lottie options={defaultOptions2}
-              height={120}
-              width={170}
+          <div className="lottie2">
+          <Lottie className="lottie" options={defaultOptions2}
+              height={150}
+              width={200}
               />
+              </div>
             <p>Elevate your digital presence with our expert web development services.
                We specialize in crafting dynamic, user-centric websites that captivate your audience and
                 drive meaningful engagement.</p>
           </div>
           <h1>WEB DEVELOPMENT</h1>
+          
         </div>
         <div className="card2 img1">
           
           <div className="information1">
-          <Lottie options={defaultOptions3}
-              height={90}
-              width={170}
-              />
+          <div className="lottie3">
+          <Lottie className="lottie" options={defaultOptions3}
+              height={125}
+              width={200}
+              /></div>
             <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
                but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
           </div>
@@ -373,10 +378,12 @@ function Home() {
         <div className="card2 img1">
           
           <div className="information1">
-          <Lottie options={defaultOptions4}
-              height={140}
-              width={170}
+            <div className="lottie4">
+          <Lottie  options={defaultOptions4}
+              height={170}
+              width={200}
               />
+              </div>
             <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
           </div>
           <h1>DIGITAL MARKETING</h1>
@@ -424,6 +431,10 @@ function Home() {
       <div class="back back1">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -433,6 +444,10 @@ function Home() {
       <div class="back back2">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -442,6 +457,10 @@ function Home() {
       <div class="back back3">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -451,6 +470,10 @@ function Home() {
       <div class="back back4">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -460,6 +483,11 @@ function Home() {
       <div class="back back5">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
+
       </div>
     </div>
   </div>
@@ -469,6 +497,10 @@ function Home() {
       <div class="back back6">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -478,6 +510,10 @@ function Home() {
       <div class="back back7">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
       </div>
     </div>
   </div>
@@ -487,6 +523,11 @@ function Home() {
       <div class="back back8">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <a href="https://www.google.com" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button>
+    </a>
       </div>
     </div>
   </div>
@@ -498,12 +539,13 @@ function Home() {
     <div className="comp4">
       <Fade bottom>
         <h1 className="PricingH" id="Pricing">PRICING</h1>
+        {/* <h4>Lorem ipsum dolor Lorem ipsum dolor</h4> */}
       </Fade>
       <div className="wrapper3">
         <div className="single-price">
           <h1>BASIC</h1>
           <div className="price">
-            <h2>$15/month</h2>
+          <h2><span className="priceH">$15</span><span className="monthH">/month</span></h2>
           </div>
           <div className="deals">
             <h4>Lorem ipsum dolor</h4>
@@ -519,10 +561,10 @@ function Home() {
         <div className="single-price">
           <h1>STANDARD</h1>
           <div className="price">
-            <h2>$150/month</h2>
+            <h2><span className="priceH">$150</span><span className="monthH">/month</span></h2>
           </div>
           <div className="deals">
-            <h4>Lorem ipsum dolor ksfabahdsjfbjhsbfshjdb fjhsd fbshjd</h4>
+            <h4>Lorem ipsum dolor</h4>
             <h4>Lorem ipsum dolor</h4>
             <h4>Lorem ipsum dolor</h4>
             <h4>Lorem ipsum dolor</h4>
@@ -535,7 +577,7 @@ function Home() {
         <div className="single-price">
           <h1>PRO</h1>
           <div className="price">
-            <h2>$1500/month</h2>
+          <h2><span className="priceH">$1500</span><span className="monthH">/month</span></h2>
           </div>
           <div className="deals">
             <h4>Lorem ipsum dolor</h4>

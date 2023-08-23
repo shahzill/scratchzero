@@ -127,7 +127,7 @@ span :hover{
     margin-right: 3%;
     border-radius: 3%;
     max-height: max-content;
-     background-color: #F1F3F5;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 9%, rgba(142,142,142,1) 30%, rgba(242,241,241,1) 50%);
 
     z-index: -1;
      /* background-image: url("../Imgs/Whiteeee.jpeg");
@@ -389,47 +389,10 @@ span :hover{
     max-height: max-content;
     flex-direction: column;
     padding-bottom: 3%;
-    overflow: hidden;
+
     border-radius: 5%;
 }  
 
-.img2{
-  background-image: url("../Imgs/WEBDEVELOPMENT.png"); 
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: azure;
-    border-radius: 5%;
-}
-.img3{
-  background-image: url("../Imgs/ServicesBG.jpeg"); 
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    border-radius: 5%;
-}
-.img4{
-  background-image: url("../Imgs/ServicesBG.jpeg"); 
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 5%;
-}
-.img5{
-  background-image: url("../Imgs/ServicesBG.jpeg"); 
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 5%;
-}
-.img6{
-  background-image: url("../Imgs/ServicesBG.jpeg"); 
-  background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 5%;
-}
 
 
 .card2:hover{
@@ -459,8 +422,8 @@ span :hover{
   margin-right: 2%;
   margin-left: 2%;
   width: 100%;
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 400%;
+  line-height: 100%;
   color: azure;
 }
 
@@ -474,6 +437,8 @@ span :hover{
 
 }
 
+
+
 .card2 .information1{
   position: relative;
   z-index: 3;
@@ -483,6 +448,7 @@ span :hover{
   transition: 0.5s all;
   font-size: 20px;
   line-height: 30px;
+  margin-top: -30%;
 } 
 
 .card2:hover .information1{
@@ -490,6 +456,32 @@ span :hover{
   transform:  translateY(0px);
 }
 
+.information1{
+  margin-bottom: 0%;
+}
+.information1 .lottie3{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.information1 .lottie1{
+  text-align: center;
+  margin-bottom: 13%;
+}
+.information1 .lottie2{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.information1 .lottie3{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.information1 .lottie4{
+  text-align: center;
+  margin-bottom: 10%;
+}
 
 .comp4{
   display: flex;
@@ -503,9 +495,10 @@ span :hover{
   max-height: max-content;
   padding-top: 5%;
   padding-bottom: 10%;
-  background-color:  #F1F3F5;
+
   opacity: 1;
     color: black;
+    background-color: white;
 
 }
 
@@ -538,14 +531,7 @@ span :hover{
   transition: 0.9s;
 }
 
-.service:hover h1{
-  color: #f4543c;
-}
 
-.service:hover {
-  color: #f4543c;
-  scale: 1.1;
-}
 
 .services p{
   line-height: 30px;
@@ -642,6 +628,24 @@ span :hover{
     animation-fill-mode: backwards;
 }
 
+.projectButton{
+  margin-bottom: 2%;
+  color: azure;
+  background-color: #f4543c;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+  border: none;
+  width: max-content;
+
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+border-radius: 16px;
+}
+
 @keyframes moveInBottom {
     0% {
         opacity: 0;
@@ -666,7 +670,7 @@ span :hover{
 
 .comp4 .PricingH{
   font-size: 400%;
-
+  color: azure;
   font-family: "Oswald";
 }
 
@@ -707,7 +711,7 @@ span :hover{
   width: 50%;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -976,10 +980,10 @@ span :hover{
   margin-bottom: 5%;
   height: max-content;
   text-align: center;
-  box-shadow: 1px 1px 10px rgba(9, 9, 9, 0.5);
+  /* outline: black solid 3px; */
   transition: 0.9s;
   padding-bottom: 5%;
-  border-radius: 8%;
+  border-radius: 2%;
   color: black;
   background-color: #F1F3F5;
 
@@ -1018,13 +1022,44 @@ span :hover{
 }
 
 .single-price:hover{
-  background-color: #f4543c;
-  color: black;
+  background-color: black;
+  color: azure;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
   transform: scale(1.1);
   z-index: 1;
   border-radius: 25px;
+  outline: black solid 3px;
 }
+
+.single-price:hover h1{
+color: #f4543c;
+}
+
+.single-price:hover h4{
+  color: azure;
+}
+
+
+.single-price:hover h2{
+  color: azure;
+}
+
+.price .priceH{
+  font-size: 170%;
+}
+
+.price .monthH{
+  font-size: 70%;
+}
+
+.single-price:hover .btn-white{
+  background-color: #f4543c;
+}
+
+.single-price:hover .btn-white::after{
+  background-color: #f4543c;
+}
+
 
 .pricingbtn{
   margin-top: 1%;
