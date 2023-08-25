@@ -407,7 +407,7 @@ span :hover{
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(3,0,25,1) 0%, rgba(62,11,147,0.8590029761904762) 100%);
+  background: linear-gradient(0deg, rgba(128,36,36,0.7120973389355743) 0%, rgba(207,72,52,0.936186974789916) 31%);  
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
@@ -420,6 +420,7 @@ span :hover{
 
 .card2 h1{
   margin-right: 2%;
+  padding-left: 3%;
   margin-left: 2%;
   width: 100%;
   font-size: 400%;
@@ -466,11 +467,12 @@ span :hover{
 
 .information1 .lottie1{
   text-align: center;
-  margin-bottom: 13%;
+  margin-bottom: 12%;
+  margin-top: 3%;
 }
 .information1 .lottie2{
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
 }
 
 .information1 .lottie3{
@@ -479,6 +481,11 @@ span :hover{
 }
 
 .information1 .lottie4{
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.information1 .lottie5{
   text-align: center;
   margin-bottom: 10%;
 }
@@ -498,7 +505,8 @@ span :hover{
 
   opacity: 1;
     color: black;
-    background-color: white;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 2%, rgba(54,54,54,1) 13%, rgba(124,124,124,1) 
+    30%, rgba(190,190,190,0.936186974789916) 46%, rgba(237,237,237,0.936186974789916) 61%, rgba(247,247,247,0.936186974789916) 68%);
 
 }
 
@@ -545,6 +553,9 @@ span :hover{
 .Quote{
   padding-top: 5%;
 }
+
+
+
 .text-box{
   padding-top: 2%;
   display: flex;
@@ -583,7 +594,7 @@ span :hover{
 }
 
 .btn-white {
-    background-color: black;
+    background-color: #f4543c;;
     color: azure;
 }
 
@@ -670,10 +681,52 @@ border-radius: 16px;
 
 .comp4 .PricingH{
   font-size: 400%;
-  color: azure;
+  color: black;
   font-family: "Oswald";
 }
 
+.comp4 .PricingSH{
+  font-size: 150%;
+  color: black;
+  font-family: "Oswald";
+}
+.package1 h1{
+
+  margin-top: 10%;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(30deg, #f4543c 50%, transparent 50%);
+  text-align: left;
+  font-family: "Oswald";
+  color: azure;
+  font-size: 80px;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+.package2 h1{
+
+  margin-top: 10%;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(30deg, #f3443c 70%, transparent 50%);
+  text-align: left;
+  font-family: "Oswald";
+  color: azure;
+  font-size: 80px;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+
+.package3 h1{
+
+  margin-top: 10%;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(30deg, #f3443c 65%, transparent 50%);
+  text-align: left;
+  font-family: "Oswald";
+  color: azure;
+  font-size: 80px;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
 
 .comp5{
   background-color: black;
@@ -813,7 +866,7 @@ border-radius: 16px;
 }
 
 .front1 {
-  background-image: url("../Imgs/Card1.jpeg");
+  background-image: url("../Imgs/Reservim2.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -830,7 +883,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front2 {
-  background-image: url("../Imgs/Card2.jpeg");
+  background-image: url("../Imgs/doctorfindy2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -949,6 +1002,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 
+
 /* 
 .plan1, .plan2, .plan3{
   border: 3px solid #f4543c;
@@ -970,20 +1024,21 @@ border-radius: 16px;
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 0.5%;
   margin-top: 5%;
   justify-content: center;
 }
 
 .single-price{
-  width: 250px;
+  width: 300px;
+
   margin-bottom: 5%;
   height: max-content;
   text-align: center;
   /* outline: black solid 3px; */
   transition: 0.9s;
   padding-bottom: 5%;
-  border-radius: 2%;
+
   color: black;
   background-color: #F1F3F5;
 
@@ -996,6 +1051,23 @@ border-radius: 16px;
   display: flex;
   margin-bottom: 5%;
   justify-content: center;
+
+  text-underline-offset: 40%;
+}
+.single-price h3{
+  text-align: left;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: 200;
+  color: #3a3a3a;
+}
+
+.single-price .pricingSubH{
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: #d5d5d5 solid 2px;
 }
 
 .price h2{
@@ -1003,16 +1075,27 @@ border-radius: 16px;
 }
 
 .single-price h1{
-  font-size: 20px;
-  color: black;
-  line-height: 3;
+
+  font-size: 30px;
+  color: white;
+ 
+}
+.check{
+  color: rgb(0, 164, 0);
 }
 
 .deals h4{
+  margin-left: 10%;
+  text-align: left;
+  margin-bottom: 3%;
   font-size: 17px;
   color: black;
   font-weight: normal;
   line-height: 2;
+}
+
+.single-price .deals{
+  margin-top: 5%;
 }
 
 
@@ -1027,13 +1110,18 @@ border-radius: 16px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
   transform: scale(1.1);
   z-index: 1;
-  border-radius: 25px;
+
   outline: black solid 3px;
 }
 
+
 .single-price:hover h1{
-color: #f4543c;
+color: black;
 }
+
+.single-price:hover h3{
+  color: azure;
+  }
 
 .single-price:hover h4{
   color: azure;
@@ -1048,8 +1136,11 @@ color: #f4543c;
   font-size: 170%;
 }
 
+
 .price .monthH{
   font-size: 70%;
+  font-weight: 100;
+  font-family: "Oswald";
 }
 
 .single-price:hover .btn-white{

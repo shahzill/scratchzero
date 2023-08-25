@@ -8,12 +8,8 @@ import Background2 from "../Imgs/Background2.jpg"
 import { styles } from "../Styles/Home.css";
 import { FaInstagramSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaCircle, FaFlag } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
-import SEOM from "../Imgs/SEOMarketing.png"
-import WEBD from "../Imgs/WEBD.png"
-import WEBD2 from "../Imgs/WEBD2.png"
-import DGM from "../Imgs/DGM.png"
-import card1 from "../Imgs/Card5.jpeg"
 import Fade from 'react-reveal/Fade';
 import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
@@ -22,10 +18,12 @@ import ReactTyped from "react-typed";
 import { motion } from 'framer-motion';
 import Particles from '../components/Particles';
 import Lottie from 'react-lottie';
-import SEO from "../Imgs/SEO.json"
-import WEBDEVELOPMENT from "../Imgs/WEBDEVELOPMENT.json"
-import UI from "../Imgs/UI.json"
-import DIGITAL from "../Imgs/DIGITAL.json"
+import SEO from "../Imgs/SEO.json";
+import WEBDEVELOPMENT from "../Imgs/WEBDEVELOPMENT.json";
+import UI from "../Imgs/UI.json";
+import DIGITAL from "../Imgs/DIGITAL.json";
+import MOBD from "../Imgs/MOBD.json";
+import DEBS from "../Imgs/DEBS.json";
 
 // SPLIT TEXT ATTEMPT:
 import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
@@ -63,54 +61,22 @@ function Home() {
       preserveAspectRatio: 'xMidYMid slice'
     }
   };
-  // code from 
-  // state for mouse position
-//   const [mousePosition, setMousePosition] = useState({
-//     x: 0,
-//     y: 0,
-//   });
-
-//   useEffect(() => {
-//     const mouseMove = (e) => {
-//       setMousePosition({
-//         x: e.clientX,
-//         y: e.clientY,
-//       });
-//     };
-
-//     window.addEventListener("mousemove", mouseMove);
-
-//     return () => {
-//       window.removeEventListener("mousemove", mouseMove);
-//     };
-//   }, []);
-
-//    // Set cursor variant to change color on hover text
-// const [cursorVariant, setCursorVariant] = useState("default");
-
-// // Variant animation
-// const variants = {
-
-// // default animation (applies onMouseLeave)
-//   default: {
-//     x: mousePosition.x - 8,
-//     y: mousePosition.y - 8,
-//   },
-
-// // text animation (applies onMouseEnter) 
-//   text: {
-//     height: 150,
-//     width: 150,
-//     x: mousePosition.x - 70,
-//     y: mousePosition.y - 70,
-//     backgroundColor: "aqua",
-//     mixBlendMode: "difference",
-//   },
-// };
-
-// function for textLeave and textEnter
-// const textEnter = () => setCursorVariant("text");
-// const textLeave = () => setCursorVariant("default");
+  const defaultOptions5 = {
+    loop: true,
+    autoplay: true, 
+    animationData: MOBD,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+  const defaultOptions6 = {
+    loop: true,
+    autoplay: true, 
+    animationData: DEBS,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
 
   return (
     <>
@@ -181,7 +147,7 @@ function Home() {
              
             </h1>
             <p>Our <strong><span className="Red">relentless pursuit of excellence </span></strong>drives us to be the preferred choice for clients seeking cutting-edge solutions. Leveraging the power of <strong><span className="Red">modern technologies </span></strong>,
-               we craft digital experiences that transcend the ordinary and define the extraordinary. Our <strong><span className="Red">commitment to your sucess </span></strong> is unwavering, and we are 
+               we craft digital experiences that transcend the ordinary and define the extraordinary. Our <strong><span className="Red">commitment to your success </span></strong> is unwavering, and we are 
                here to guide you on your journey to success.</p>
               
             </div>
@@ -197,7 +163,7 @@ function Home() {
             <a href="https://www.linkedin.com/in/shahzill-naveed/" target="_blank">
             < FaLinkedin className="scale1 Red" />
             </a>
-            <a href="https://instagram.com/_shahzill" target="_blank">
+            <a href="https://www.instagram.com/scratchzero_/" target="_blank">
             < FaInstagramSquare className="scale2 Red" />
             </a>
             <a href="https://github.com/shahzill" target="_blank">
@@ -328,6 +294,52 @@ function Home() {
   */}
       <div className="wrapper2">
       
+      <div className="card2 img1">
+
+        <div className="information1">
+        <div className="lottie2">
+        <Lottie className="lottie" options={defaultOptions2}
+            height={150}
+            width={200}
+            />
+            </div>
+          <p>Elevate your digital presence with our expert web development services.
+            We specialize in crafting dynamic, user-centric websites that captivate your audience and
+              drive meaningful engagement.</p>
+        </div>
+        <h1>WEB DEVELOPMENT</h1>
+
+        </div>
+        
+        <div className="card2 img1">
+          
+          <div className="information1">
+          <div className="lottie5">
+          <Lottie options={defaultOptions5}
+              height={140}
+              width={170}
+              />
+          </div>
+            <p>Turn your ideas into reality with our mobile app development service. From concept to launch, We create user-friendly, 
+              feature-rich apps across platforms for a captivating experience for your users.</p>
+          </div>
+          <h1>MOBILE APP DEVELOPMENT</h1>
+        </div>
+        
+        <div className="card2 img1">
+          
+          <div className="information1">
+          <div className="lottie3">
+          <Lottie className="lottie" options={defaultOptions3}
+              height={125}
+              width={200}
+              /></div>
+            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
+               but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
+          </div>
+          <h1>UI/UX DESIGNING</h1>
+        </div>
+
         <div className="card2 img1">
 
         
@@ -347,35 +359,6 @@ function Home() {
           
         </div>
         <div className="card2 img1">
-
-          <div className="information1">
-          <div className="lottie2">
-          <Lottie className="lottie" options={defaultOptions2}
-              height={150}
-              width={200}
-              />
-              </div>
-            <p>Elevate your digital presence with our expert web development services.
-               We specialize in crafting dynamic, user-centric websites that captivate your audience and
-                drive meaningful engagement.</p>
-          </div>
-          <h1>WEB DEVELOPMENT</h1>
-          
-        </div>
-        <div className="card2 img1">
-          
-          <div className="information1">
-          <div className="lottie3">
-          <Lottie className="lottie" options={defaultOptions3}
-              height={125}
-              width={200}
-              /></div>
-            <p>Our UI/UX design merges creativity and user-centricity, ensuring your digital platforms are not just functional,
-               but truly captivating experiences. Let us transform your vision into a visually stunning and intuitive reality.</p>
-          </div>
-          <h1>UI/UX DESIGNING</h1>
-        </div>
-        <div className="card2 img1">
           
           <div className="information1">
             <div className="lottie4">
@@ -388,26 +371,22 @@ function Home() {
           </div>
           <h1>DIGITAL MARKETING</h1>
         </div>
+
+        
+        
+        
         <div className="card2 img1">
           
           <div className="information1">
-          <Lottie options={defaultOptions4}
-              height={140}
-              width={170}
+            <div className="lottie4">
+          <Lottie  options={defaultOptions6}
+              height={170}
+              width={230}
               />
-            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
+              </div>
+            <p>Offering exceptional handling to manage unforeseen problems, fix errors, and resolve issues, thereby improving the smoothness of your online presence.</p>
           </div>
-          <h1>DIGITAL MARKETING</h1>
-        </div><div className="card2 img1">
-          
-          <div className="information1">
-          <Lottie options={defaultOptions4}
-              height={140}
-              width={170}
-              />
-            <p>Through strategic digital marketing, we boost your online presence, connecting your brand with the right audience and driving tangible growth.</p>
-          </div>
-          <h1>DIGITAL MARKETING</h1>
+          <h1>DEBUGGING STRATEGIES</h1>
         </div>
       </div> 
 
@@ -431,9 +410,13 @@ function Home() {
       <div class="back back1">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <a href="https://reservim.com/" target="_blank">
       <button className="projectButton">
         View Project
+      </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
       </button></a>
       </div>
     </div>
@@ -444,9 +427,13 @@ function Home() {
       <div class="back back2">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <a href="https://doctorfindy.com/" target="_blank">
       <button className="projectButton">
         View Project
+      </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
       </button></a>
       </div>
     </div>
@@ -461,6 +448,10 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
+      </button></a>
       </div>
     </div>
   </div>
@@ -474,6 +465,10 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
+      </button></a>
       </div>
     </div>
   </div>
@@ -486,6 +481,10 @@ function Home() {
         <a href="https://www.google.com" target="_blank">
       <button className="projectButton">
         View Project
+      </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
       </button></a>
 
       </div>
@@ -514,6 +513,11 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
+      <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
+      </button></a>
+
       </div>
     </div>
   </div>
@@ -528,6 +532,10 @@ function Home() {
         View Project
       </button>
     </a>
+    <a href="/Projects" target="_blank">
+      <button className="projectButton">
+        Learn More
+      </button></a>
       </div>
     </div>
   </div>
@@ -539,52 +547,49 @@ function Home() {
     <div className="comp4">
       <Fade bottom>
         <h1 className="PricingH" id="Pricing">PRICING</h1>
-        {/* <h4>Lorem ipsum dolor Lorem ipsum dolor</h4> */}
+        <p className="PricingSH">CHOOSE THE RIGHT PLAN FOR YOUR BUSINESS</p>
       </Fade>
       <div className="wrapper3">
         <div className="single-price">
-          <h1>BASIC</h1>
+          <div className="package1"><h1>BASIC</h1></div>
           <div className="price">
-          <h2><span className="priceH">$15</span><span className="monthH">/month</span></h2>
+          <h2><span className="priceH"><strong>$29</strong></span><span className="monthH">/MONTH</span></h2>
           </div>
+          <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
+          <h4><FaCheck className="check"/> All standard features</h4>
+            <h4><FaCheck className="check"/> Over 600 compononets</h4>
+            <h4><FaCheck className="check"/> Build tools and examples</h4>
           </div>
           <div class="text-box">
           <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
         </div>
         </div>
         <div className="single-price">
-          <h1>STANDARD</h1>
+        <div className="package2"><h1>STANDARD</h1></div>
           <div className="price">
-            <h2><span className="priceH">$150</span><span className="monthH">/month</span></h2>
+          <h2><span className="priceH"><strong>$149</strong></span><span className="monthH">/MONTH</span></h2>
           </div>
+          <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
+          <h4><FaCheck className="check"/> All standard features</h4>
+            <h4><FaCheck className="check"/> Over 600 compononets</h4>
+            <h4><FaCheck className="check"/> Build tools and examples</h4>
           </div>
           <div class="text-box">
           <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
         </div>
         </div>
         <div className="single-price">
-          <h1>PRO</h1>
+        <div className="package3"><h1>PREMIUM</h1></div>
           <div className="price">
-          <h2><span className="priceH">$1500</span><span className="monthH">/month</span></h2>
+          <h2><span className="priceH"><strong>$1399</strong></span><span className="monthH">/MONTH</span></h2>
           </div>
+          <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
-            <h4>Lorem ipsum dolor</h4>
+            <h4><FaCheck className="check"/> All standard features</h4>
+            <h4><FaCheck className="check"/> Over 600 compononets</h4>
+            <h4><FaCheck className="check"/> Build tools and examples</h4>
           </div>
           <div class="text-box">
           <a href="/#ContactUs" class="btn btn-white btn-        animate pricingbtn">Get this</a>
