@@ -94,7 +94,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
 .Pcontent2 .Projects{
     width: 50%;
-
+    overflow-x: hidden;
+    overflow-x: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 .Pcontent2 .Pquote1{
@@ -112,12 +115,26 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     color: #f4543c;
 }
 
-.Projects .container {
-    width: 220px;
+
+ .Pcontainer {
+    width: 200px;
     height: 350px;
     perspective: 800px;
+    display: flex;
+    flex-direction: row;
     padding: 3% 0;
-}
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+  }
+  
+  .Pcontainer:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+
 
 .Pfront,
 .Pback {
@@ -134,6 +151,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 3%;
 
 }
 
@@ -169,7 +187,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     overflow: hidden;
   }
   
-
-
-
-
+ .media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+ }
