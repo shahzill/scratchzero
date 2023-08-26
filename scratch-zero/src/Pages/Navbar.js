@@ -17,7 +17,7 @@ function Navbar() {
 	};
 
 	const changeBG = () => {
-		if(window.scrollY >= 350){
+		if(window.scrollY >= 10){
 			setNavColor(true)
 		}
 		else{

@@ -47,11 +47,9 @@
 
 .Pcontent2{
     width: 100%;
-    padding-top: 5%;
     display: flex;
     flex-direction: row;
     color: azure;
-    padding-top: 5%;
 
 }
 
@@ -160,8 +158,8 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   backface-visibility: hidden;
 }
 
-.Pfront2 {
-  background-image: url("../Imgs/Reservim2.png");
+.Pfront {
+  background-image: url("../Imgs/Card1.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +167,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
 }
 
-.Pback2 {
+.Pback {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
   display: flex;
@@ -182,14 +180,13 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 }
 
 .Pfront2 {
-    background-image: url("../Imgs/Reservim2.png");
+    background-image: url("../Imgs/Card2.jpeg");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
-  }
-  
-  .Pback2 {
+}
+.Pback2 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
@@ -198,13 +195,91 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     align-items: center;
     padding-left: 2%;
     padding-right: 2%;
-    overflow: hidden;
-  }
+      overflow: hidden;
+}
+
+.Pfront3 {
+    background-image: url("../Imgs/Card3.jpeg");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.Pback3 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.Pfront4 {
+    background-image: url("../Imgs/Card4.jpeg");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.Pback4 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.Pfront5 {
+    background-image: url("../Imgs/Card5.jpeg");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.Pback5 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.Pfront6 {
+    background-image: url("../Imgs/Card6.jpeg");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.Pback6 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+  
+
   
  .media-scroller{
     display: grid;
     grid-auto-flow: column;
-    gap: 5%;
+    gap: 2%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
  }
@@ -216,8 +291,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     align-items: center;
     align-content: center;
     margin-right: 2%;
-    margin-left: 2%;
+    margin-left: -5%;
     font-size: 200%;
+    z-index: 10;
+    color: #f4543c;
  }
 
  .Projects-Arrows .Left{
@@ -226,9 +303,11 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: 2%;
+    margin-right: -5%;
     margin-left: 2%;
     font-size: 200%;
+    z-index: 10;
+    color: #f4543c;
  }
 
  
@@ -247,7 +326,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
         width: 100%;
     }
 
-    .Pcontent2 .Projects{
+    .Pcontent2 .Projects-Arrows{
         width: 100%;
 
     
