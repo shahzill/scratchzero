@@ -10,6 +10,7 @@ import { styles } from '../Styles/Projects.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import { FaCheck, FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 
 
 import {BrowserRouter as Router, Switch, Route, Link, useNavigate, useParams} from 'react-router-dom';
@@ -77,9 +78,12 @@ function Projects() {
             <div className="SoftwareDevH">
                 <h1><span class="gradient-underline">SOFTWARE DEVELOPMENT</span>  </h1> 
             </div>
+            <div className="Projects-Arrows">
+            <div className="Left"><FaArrowCircleLeft /></div>
             <div className="Projects">
-                
+            
             <div className="cards">
+                
             <div className="media-scroller">
                 <div class="Pcontainer">
                 <div class="card">
@@ -164,7 +168,11 @@ function Projects() {
             
            
             </div>
+            
             </div>
+            
+            </div>
+            <div className="Right"><FaArrowCircleRight /></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>

@@ -90,11 +90,21 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     width: 100%;
  }
 
-
-
-.Pcontent2 .Projects{
+ .Pcontent2 .Projects-Arrows{
     width: 50%;
     overflow-x: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+.Projects .cards{
+    margin: 0;
+}
+
+.Pcontent2 .Projects{
+    width: 100%;
     overflow-x: hidden;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -106,6 +116,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     justify-content: center;
     align-items: center;
 
+}
+
+.media-scroller::-webkit-scrollbar{
+    width: 0;
 }
 
 .Pquote1 p{
@@ -122,7 +136,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     perspective: 800px;
     display: flex;
     flex-direction: row;
-    padding: 3% 0;
+
     margin-top: 10%;
     margin-bottom: 10%;
 
@@ -194,3 +208,52 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     overflow-x: auto;
     overscroll-behavior-inline: contain;
  }
+
+ .Projects-Arrows .Right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 200%;
+ }
+
+ .Projects-Arrows .Left{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 200%;
+ }
+
+ 
+@media screen and (max-width: 1050px) {
+    .Pcontent2{
+        width: 100%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+
+        color: azure;
+        padding-top: 5%;
+    
+    }
+    .Pcontent2 .SoftwareDevH{
+        width: 100%;
+    }
+
+    .Pcontent2 .Projects{
+        width: 100%;
+
+    
+    }
+    .Pcontent2 .Pquote1{
+        width: 100%;
+
+    }
+}

@@ -8,7 +8,7 @@ import Background2 from "../Imgs/Background2.jpg"
 import { styles } from "../Styles/Home.css";
 import { FaInstagramSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaCircle, FaFlag } from "react-icons/fa";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
 import Fade from 'react-reveal/Fade';
 import Canvas from "./Canvas";
