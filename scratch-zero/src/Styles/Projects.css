@@ -92,7 +92,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     width: 50%;
     overflow-x: hidden;
     padding-top: 5%;
-    padding-bottom: 5%;
+
     display: flex;
     flex-direction: row;
 
@@ -129,7 +129,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
 
  .Pcontainer {
-    width: 200px;
+    width: 220px;
     height: 350px;
     perspective: 800px;
     display: flex;
@@ -138,8 +138,12 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     margin-top: 10%;
     margin-bottom: 10%;
 
-
   }
+
+  .card .Pfront, .Pback{
+    border-radius: 5%;
+  }
+
   
   .Pcontainer:hover > .card {
     cursor: pointer;
@@ -309,6 +313,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     z-index: 10;
     color: #f4543c;
  }
+
 
  
 @media screen and (max-width: 1050px) {

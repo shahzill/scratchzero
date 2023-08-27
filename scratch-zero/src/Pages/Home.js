@@ -111,7 +111,7 @@ function Home() {
     {/* <div className="gap"></div> */}
     
     {/* second section */}
-    <div className="comp3" id="AboutUs">
+    <div className="comp3" id="AboutUs" >
    
       {/* content */}
       <div className="subcomp3">
@@ -544,16 +544,16 @@ function Home() {
     </div>
 
     {/* fourth section */}
-    <div className="comp4">
+    <div className="comp4" id="Pricing">
       <Fade bottom>
-        <h1 className="PricingH" id="Pricing">PRICING</h1>
+        <h1 className="PricingH" >PRICING</h1>
         <p className="PricingSH">CHOOSE THE RIGHT PLAN FOR YOUR BUSINESS</p>
       </Fade>
       <div className="wrapper3">
         <div className="single-price">
           <div className="package1"><h1>BASIC</h1></div>
           <div className="price">
-          <h2><span className="priceH"><strong>$29</strong></span><span className="monthH">/MONTH</span></h2>
+          <h2><span className="priceH">$29</span><span className="monthH">/MONTH</span></h2>
           </div>
           <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
@@ -568,7 +568,7 @@ function Home() {
         <div className="single-price">
         <div className="package2"><h1>STANDARD</h1></div>
           <div className="price">
-          <h2><span className="priceH"><strong>$149</strong></span><span className="monthH">/MONTH</span></h2>
+          <h2><span className="priceH">$149</span><span className="monthH">/MONTH</span></h2>
           </div>
           <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
@@ -583,7 +583,7 @@ function Home() {
         <div className="single-price">
         <div className="package3"><h1>PREMIUM</h1></div>
           <div className="price">
-          <h2><span className="priceH"><strong>$1399</strong></span><span className="monthH">/MONTH</span></h2>
+          <h2><span className="priceH">$1399</span><span className="monthH">/MONTH</span></h2>
           </div>
           <div className="pricingSubH"><h3>The perfect way to get started and get used to our tools.</h3></div>
           <div className="deals">
