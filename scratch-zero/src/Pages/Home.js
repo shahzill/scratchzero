@@ -173,24 +173,20 @@ function Home() {
             </div>
         </div>
         
-        
+      
 
     </div>
     
     {/* third section */}
 
-    
+    <div className="notch">
+    <svg className="svgNotch" viewBox="0 0 1263 291" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><path fill="rgba(0, 0, 0, 1)" d="M 0 291 C 308 291 308 73 616 73 L 616 73 L 616 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(0, 0, 0, 1)" d="M 615 73 C 939 73 939 291 1263 291 L 1263 291 L 1263 0 L 615 0 Z" stroke-width="0"></path> </svg></div>
+   
+
     <div className="comp2" id="Our-Services">
 
+    
 
-    <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-            >
-            <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"></path>
-        </svg>
 
       <Fade bottom>
         <div className="ServicesH">
@@ -410,14 +406,16 @@ function Home() {
       <div class="back back1">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://reservim.com/" target="_blank">
+        <div className="CardButtons">
+        <a href="https://mohkm.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -427,14 +425,16 @@ function Home() {
       <div class="back back2">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <div className="CardButtons">
         <a href="https://doctorfindy.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -444,14 +444,16 @@ function Home() {
       <div class="back back3">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <div className="CardButtons">
+        <a href="https://spera.io/products/project-management/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -461,14 +463,16 @@ function Home() {
       <div class="back back4">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <div className="CardButtons">
+        <a href="https://reservim.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -478,14 +482,16 @@ function Home() {
       <div class="back back5">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <div className="CardButtons">
+        <a href="https://www.cuddlynest.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
 
       </div>
     </div>
@@ -496,10 +502,16 @@ function Home() {
       <div class="back back6">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <div className="CardButtons">
+        <a href="https://www.gkchattels.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
+      <a href="/Projects">
+      <button className="projectButton">
+        Learn More
+      </button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -509,14 +521,16 @@ function Home() {
       <div class="back back7">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
-        <a href="https://www.google.com" target="_blank">
+        <div className="CardButtons">
+        <a href="https://www.healerlabs.co.uk/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects" target="_blank">
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
 
       </div>
     </div>
@@ -527,15 +541,16 @@ function Home() {
       <div class="back back8">
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
+        <div className="CardButtons">
         <a href="https://www.google.com" target="_blank">
       <button className="projectButton">
         View Project
-      </button>
-    </a>
-    <a href="/Projects" target="_blank">
+      </button></a>
+      <a href="/Projects">
       <button className="projectButton">
         Learn More
       </button></a>
+      </div>
       </div>
     </div>
   </div>

@@ -295,7 +295,6 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     align-items: center;
     align-content: center;
     margin-right: 2%;
-    margin-left: -5%;
     font-size: 200%;
     z-index: 10;
     color: #f4543c;
@@ -307,7 +306,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: -5%;
+
     margin-left: 2%;
     font-size: 200%;
     z-index: 10;

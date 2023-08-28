@@ -293,6 +293,43 @@ span :hover{
   font-size: 20px;
 }
 
+ .comp2 .notch{
+  
+  overflow: hidden;
+}
+/*
+.topNotch .notch{
+
+  background-color: black;
+
+  display: flex;
+  stroke: none;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-height: max-content;
+} */
+
+.notch .svgNotch{
+  position: relative;
+  width: 10%;
+
+  background-color: rgba(242,241,241,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 45%;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: -3;
+  overflow: hidden;
+
+
+}
 
 
 
@@ -775,18 +812,7 @@ border-radius: 16px;
 }
 
 
-.comp2 svg {
 
-                opacity: 1;
-                width: 90%;
-                margin-right: 5%;
-                margin-left: 5%;
-                height: 50px;
-                fill: black;
-                transform: rotateX(0deg);
-                top:0;
-
-}
 
 
 
@@ -867,7 +893,7 @@ border-radius: 16px;
 }
 
 .front1 {
-  background-image: url("../Imgs/Reservim2.png");
+  background-image: url("../Imgs/Hcard1.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -875,7 +901,7 @@ border-radius: 16px;
 }
 
 .back1 {
-  background-color: #3a3a3a;
+  background-color: #E0F2E6;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -884,7 +910,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front2 {
-  background-image: url("../Imgs/doctorfindy2.png");
+  background-image: url("../Imgs/Hcard2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -892,7 +918,7 @@ border-radius: 16px;
 }
 
 .back2 {
-  background-color: #3a3a3a;
+  background-color: #A1C0EF;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -901,7 +927,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front3 {
-  background-image: url("../Imgs/Card3.jpeg");
+  background-image: url("../Imgs/Hcard3.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -909,7 +935,7 @@ border-radius: 16px;
 }
 
 .back3 {
-  background-color: #3a3a3a;
+  background-color: #C9E3F0;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -918,7 +944,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front4 {
-  background-image: url("../Imgs/Card4.jpeg");
+  background-image: url("../Imgs/Hcard4.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -926,7 +952,7 @@ border-radius: 16px;
 }
 
 .back4 {
-  background-color: #3a3a3a;
+  background-color: #D0BD92;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -935,7 +961,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front5 {
-  background-image: url("../Imgs/Card5.jpeg");
+  background-image: url("../Imgs/Hcard5.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -943,7 +969,7 @@ border-radius: 16px;
 }
 
 .back5 {
-  background-color: #3a3a3a;
+  background-color: #F5E5F0;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -952,7 +978,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front6 {
-  background-image: url("../Imgs/Card6.jpeg");
+  background-image: url("../Imgs/Hcard6.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -960,7 +986,7 @@ border-radius: 16px;
 }
 
 .back6 {
-  background-color: #3a3a3a;
+  background-color: #D7D8D9;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -969,7 +995,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front7 {
-  background-image: url("../Imgs/Card7.jpeg");
+  background-image: url("../Imgs/Hcard7.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -977,7 +1003,7 @@ border-radius: 16px;
 }
 
 .back7 {
-  background-color: #3a3a3a;
+  background-color: #161616;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -986,7 +1012,7 @@ border-radius: 16px;
   gap: 5rem;
 }
 .front8 {
-  background-image: url("../Imgs/Card8.jpeg");
+  background-image: url("../Imgs/Card2.jpeg");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -994,7 +1020,7 @@ border-radius: 16px;
 }
 
 .back8 {
-  background-color: #3a3a3a;
+  background-color: #161616;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -1017,6 +1043,13 @@ border-radius: 16px;
 
 .pcontent{
   padding: 10px;
+}
+
+
+.back .CardButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
 }
 
 .wrapper3{
