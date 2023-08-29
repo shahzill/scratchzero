@@ -83,7 +83,7 @@ function Home() {
     {/* website hero */}
     {/* <video className="video1" src={videoBG1} autoPlay loop muted /> */}
         <React.Fragment><Navbar /></React.Fragment>
-    <div className='main'>  
+    <div className='main' id='Home'>  
         <div className="content">
            <div className="heroitems">
             <h1  className='title'>
@@ -411,10 +411,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
       </div>
     </div>
@@ -430,10 +427,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
       </div>
     </div>
@@ -449,10 +443,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
       </div>
     </div>
@@ -468,10 +459,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
       </div>
     </div>
@@ -487,10 +475,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
 
       </div>
@@ -507,10 +492,7 @@ function Home() {
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
       </div>
     </div>
@@ -522,14 +504,11 @@ function Home() {
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
         <div className="CardButtons">
-        <a href="https://www.healerlabs.co.uk/" target="_blank">
+        <a href="https://thecarmedics.ae/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
-      </button></a>
+      
       </div>
 
       </div>
@@ -542,19 +521,22 @@ function Home() {
         <h1>Back of Card</h1>
         <p>Additional info on the back of the card</p>
         <div className="CardButtons">
-        <a href="https://www.google.com" target="_blank">
+        <a href="https://scentrevelation.com/" target="_blank">
       <button className="projectButton">
         View Project
-      </button></a>
-      <a href="/Projects">
-      <button className="projectButton">
-        Learn More
       </button></a>
       </div>
       </div>
     </div>
   </div>
+  
   </div>
+  <div className="LearnMore">
+  <a href="/Projects">
+      <button className="projectButton">
+        <strong>View More Projects</strong>
+      </button></a>
+      </div>
   
     </div>
 
@@ -708,8 +690,7 @@ function Home() {
       <div className="contact-quote">
         <div className="heading"><h1>Lets have a <span className="Red">chat</span></h1></div>
         <p>We're here to connect, collaborate, and create solutions. Whether you have questions, 
-          ideas, or a project in mind, we're excited to hear from you. Reach out to us through the channels below, 
-          and let's embark on a journey to transform your concepts into reality.</p>
+          ideas, or a project in mind.</p>
       </div>
       </div>
     </div>

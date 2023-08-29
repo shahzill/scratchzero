@@ -9,6 +9,8 @@ import Particles from '../components/Particles';
 import { styles } from '../Styles/Projects.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import leftArrow1 from "../Imgs/leftArrow.png";
+import rightArrow1 from "../Imgs/rightArrow1.png";
 import Slider from 'react-slick';
 import { FaCheck, FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 
@@ -109,7 +111,7 @@ function Projects() {
                 <h1><span class="gradient-underline">WEB DEVELOPMENT</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack2"><FaArrowCircleLeft /></div>
+            <div className="Left control prev" id="slideBack2"><img className="leftArrow" src={leftArrow1} /></div>
             <div className="Projects">
             
             <div className="cards">
@@ -202,7 +204,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next" id="slide2"><FaArrowCircleRight /></div>
+            <div className="Right control next" id="slide2"><img className="rightArrow" src={rightArrow1} /></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>
@@ -221,7 +223,7 @@ function Projects() {
                 <h1><span class="gradient-underline">DIGITAL MARKETING</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack"><FaArrowCircleLeft /></div>
+            <div className="Left control prev" id="slideBack"><img className="leftArrow" src={leftArrow1} /></div>
             <div className="Projects">
             
             <div className="cards">
@@ -314,7 +316,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next" id="slide"><FaArrowCircleRight /></div>
+            <div className="Right control next" id="slide"><img className="rightArrow" src={rightArrow1} /></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>
@@ -332,7 +334,7 @@ function Projects() {
                 <h1><span class="gradient-underline">SOFTWARE DEVELOPMENT</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack1"><FaArrowCircleLeft /></div>
+            <div className="Left control prev" id="slideBack1"><img className="leftArrow" src={leftArrow1} /></div>
             <div className="Projects">
             
             <div className="cards">
@@ -425,7 +427,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next1" id="slide1"><FaArrowCircleRight /></div>
+            <div className="Right control next" id="slide1"><img className="rightArrow" src={rightArrow1} /></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>
@@ -445,8 +447,7 @@ function Projects() {
       <div className="contact-quote">
         <div className="heading"><h1>Lets have a <span className="Red">chat</span></h1></div>
         <p>We're here to connect, collaborate, and create solutions. Whether you have questions, 
-          ideas, or a project in mind, we're excited to hear from you. Reach out to us through the channels below, 
-          and let's embark on a journey to transform your concepts into reality.</p>
+          ideas, or a project in mind.</p>
       </div>
       </div>
     </div>

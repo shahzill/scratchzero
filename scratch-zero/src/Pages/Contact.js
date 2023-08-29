@@ -56,7 +56,7 @@ const ContactUs = () => {
                     cols="30" rows="10"></textarea>
                     </div>
                     
-                    <button className="CButton" type='submit' >Send Message</button>
+                    <button className="CButton" type='submit' ><strong>Submit</strong></button>
                    
                 </form>
             </div>

@@ -163,7 +163,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 }
 
 .Pfront {
-  background-image: url("../Imgs/Card1.jpeg");
+  background-image: url("../Imgs/gandadesign.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -298,6 +298,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     font-size: 200%;
     z-index: 10;
     color: #f4543c;
+
  }
 
  .Projects-Arrows .Left{
@@ -313,6 +314,13 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     color: #f4543c;
  }
 
+ .Left img{
+    color: #f4543c;
+ }
+
+ .Right .rightArrow{
+    color: #f4543c;
+ }
 
  
 @media screen and (max-width: 1050px) {
