@@ -7,7 +7,7 @@
 }
 
 .contactContainer{
-    color: aliceblue;
+    color: azure;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -82,7 +82,6 @@ input[type=text] {
 .writtenText{
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-left: 20%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -124,17 +123,40 @@ button:hover {
 }
 
 .FName{
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    
+    border-bottom: #f4543c solid 2px;
+    color: azure;
+}
+
+.FName:-webkit-autofill,
+.FName:-webkit-autofill:hover, 
+.FName:-webkit-autofill:focus, 
+.FName:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}
+
+.LName{
+    width: 50%;
     background-color: transparent;
     border: none;
     border-bottom: #f4543c solid 2px;
     color: azure;
 }
 
-.LName{
-    background-color: transparent;
-    border: none;
-    border-bottom: #f4543c solid 2px;
-    color: azure;
+.LName:-webkit-autofill,
+.LName:-webkit-autofill:hover, 
+.LName:-webkit-autofill:focus, 
+.LName:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
 }
 
 .cont{
@@ -144,18 +166,48 @@ button:hover {
     color: azure;
 }
 
+.cont:-webkit-autofill,
+.cont:-webkit-autofill:hover, 
+.cont:-webkit-autofill:focus, 
+.cont:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}
+
 .sub{
     background-color: transparent;
     border: none;
     border-bottom: #f4543c solid 2px;
     color: azure;
 }
+
+.sub:-webkit-autofill,
+.sub:-webkit-autofill:hover, 
+.sub:-webkit-autofill:focus, 
+.sub:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
+}
 .query{
+    width: 100%;
     background-color: transparent;
     border: none;
     border-bottom: #f4543c double 2px;
     color: azure;
     
+}
+.query:-webkit-autofill,
+.query:-webkit-autofill:hover, 
+.query:-webkit-autofill:focus, 
+.query:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;
 }
 
 

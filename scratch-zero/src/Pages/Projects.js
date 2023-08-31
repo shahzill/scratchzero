@@ -37,17 +37,17 @@ function Projects() {
             sideScroll(container,'left',25,300,20);
         };
 
-        var button = document.getElementById('slide1');
-        button.onclick = function () {
-            var container = document.getElementById('container1');
-            sideScroll(container,'right',25,300,20);
-        };
+        // var button = document.getElementById('slide1');
+        // button.onclick = function () {
+        //     var container = document.getElementById('container1');
+        //     sideScroll(container,'right',25,300,20);
+        // };
         
-        var back = document.getElementById('slideBack1');
-        back.onclick = function () {
-            var container = document.getElementById('container1');
-            sideScroll(container,'left',25,300,20);
-        };
+        // var back = document.getElementById('slideBack1');
+        // back.onclick = function () {
+        //     var container = document.getElementById('container1');
+        //     sideScroll(container,'left',25,300,20);
+        // };
 
         var button = document.getElementById('slide2');
         button.onclick = function () {
@@ -119,8 +119,8 @@ function Projects() {
             <div className="media-scroller" id="container2">
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront1"></div>
-                <div class="Pback Pback1">
+                <div class="Pfront PWDfront1"></div>
+                <div class="Pback PWDback1">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -132,8 +132,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront2"></div>
-                <div class="Pback Pback2">
+                <div class="Pfront PWDfront2"></div>
+                <div class="Pback PWDback2">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -145,8 +145,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront3"></div>
-                <div class="Pback Pback3">
+                <div class="Pfront PWDfront3"></div>
+                <div class="Pback PWDback3">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -158,8 +158,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront4"></div>
-                <div class="Pback Pback4">
+                <div class="Pfront PWDfront4"></div>
+                <div class="Pback PWDback4">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -172,8 +172,8 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront5"></div>
-            <div class="Pback Pback5">
+            <div class="Pfront PWDfront5"></div>
+            <div class="Pback PWDback5">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -186,8 +186,8 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront6"></div>
-            <div class="Pback Pback6">
+            <div class="Pfront PWDfront6"></div>
+            <div class="Pback PWDback6">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -197,6 +197,91 @@ function Projects() {
                 </div>
                 </div>
             </div> 
+            <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront7"></div>
+                <div class="Pback PWDback7">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront8"></div>
+                <div class="Pback PWDback8">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront9"></div>
+                <div class="Pback PWDback9">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront10"></div>
+                <div class="Pback PWDback10">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront11"></div>
+                <div class="Pback PWDback11">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront12"></div>
+                <div class="Pback PWDback12">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+
             
            
             </div>
@@ -231,8 +316,8 @@ function Projects() {
             <div className="media-scroller" id="container">
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront1"></div>
-                <div class="Pback Pback1">
+                <div class="Pfront PDMfront1"></div>
+                <div class="Pback PDMback1">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -244,8 +329,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront2"></div>
-                <div class="Pback Pback2">
+                <div class="Pfront PDMfront2"></div>
+                <div class="Pback PDMback2">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -257,8 +342,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront3"></div>
-                <div class="Pback Pback3">
+                <div class="Pfront PDMfront3"></div>
+                <div class="Pback PDMback3">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -270,8 +355,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront4"></div>
-                <div class="Pback Pback4">
+                <div class="Pfront PDMfront4"></div>
+                <div class="Pback PDMback4">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -284,8 +369,8 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront5"></div>
-            <div class="Pback Pback5">
+            <div class="Pfront PDMfront5"></div>
+            <div class="Pback PDMback5">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -298,8 +383,50 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront6"></div>
-            <div class="Pback Pback6">
+            <div class="Pfront PDMfront6"></div>
+            <div class="Pback PDMback6">
+                <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                <a href="https://reservim.com/" target="_blank">
+            <button className="projectButton">
+                View Project
+            </button></a>
+
+                </div>
+                </div>
+            </div> 
+
+            <div class="Pcontainer">
+            <div class="card">
+            <div class="Pfront PDMfront7"></div>
+            <div class="Pback PDMback7">
+                <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                <a href="https://reservim.com/" target="_blank">
+            <button className="projectButton">
+                View Project
+            </button></a>
+
+                </div>
+                </div>
+            </div> 
+
+            <div class="Pcontainer">
+            <div class="card">
+            <div class="Pfront PDMfront8"></div>
+            <div class="Pback PDMback8">
+                <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                <a href="https://reservim.com/" target="_blank">
+            <button className="projectButton">
+                View Project
+            </button></a>
+
+                </div>
+                </div>
+            </div> 
+
+            <div class="Pcontainer">
+            <div class="card">
+            <div class="Pfront PDMfront9"></div>
+            <div class="Pback PDMback9">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -328,7 +455,7 @@ function Projects() {
         
 
     </div>
-    <div className='PComp2' id="Software-Development">  
+    {/* <div className='PComp2' id="Software-Development">  
         <div className="Pcontent2">
             <div className="SoftwareDevH">
                 <h1><span class="gradient-underline">SOFTWARE DEVELOPMENT</span>  </h1> 
@@ -342,8 +469,8 @@ function Projects() {
             <div className="media-scroller" id="container1">
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront1"></div>
-                <div class="Pback Pback1">
+                <div class="Pfront PSDfront1"></div>
+                <div class="Pback PSDback1">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -355,8 +482,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront2"></div>
-                <div class="Pback Pback2">
+                <div class="Pfront PSDfront2"></div>
+                <div class="Pback PSDback2">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -368,8 +495,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront3"></div>
-                <div class="Pback Pback3">
+                <div class="Pfront PSDfront3"></div>
+                <div class="Pback PSDback3">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -381,8 +508,8 @@ function Projects() {
                 </div>
                 <div class="Pcontainer">
                 <div class="card">
-                <div class="Pfront Pfront4"></div>
-                <div class="Pback Pback4">
+                <div class="Pfront PSDfront4"></div>
+                <div class="Pback PSDback4">
                     <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                     <a href="https://reservim.com/" target="_blank">
                 <button className="projectButton">
@@ -395,8 +522,8 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront5"></div>
-            <div class="Pback Pback5">
+            <div class="Pfront PSDfront5"></div>
+            <div class="Pback PSDback5">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -409,8 +536,8 @@ function Projects() {
 
             <div class="Pcontainer">
             <div class="card">
-            <div class="Pfront Pfront6"></div>
-            <div class="Pback Pback6">
+            <div class="Pfront PSDfront6"></div>
+            <div class="Pback PSDback6">
                 <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
                 <a href="https://reservim.com/" target="_blank">
             <button className="projectButton">
@@ -438,7 +565,7 @@ function Projects() {
             
         
 
-    </div>
+    </div>*/}
 
     <div className="comp6">
       <div className="ContactH"><h1>CONTACT US</h1></div>
@@ -450,7 +577,7 @@ function Projects() {
           ideas, or a project in mind.</p>
       </div>
       </div>
-    </div>
+    </div> 
 
     </>
     );

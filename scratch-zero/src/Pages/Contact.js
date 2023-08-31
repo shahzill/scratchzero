@@ -50,10 +50,11 @@ const ContactUs = () => {
                     <input className='sub' type="text"
                     placeholder='Subject'
                     name='user_subject' required />
-                    </div>
+                    
                     <div className='writtenText'>
                     <textarea className='query' placeholder='  Your Query' name='message' required 
                     cols="30" rows="10"></textarea>
+                    </div>
                     </div>
                     
                     <button className="CButton" type='submit' ><strong>Submit</strong></button>

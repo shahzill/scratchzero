@@ -1219,16 +1219,16 @@ color: black;
   .subcomp3{
     padding: 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .About{
     text-align: center;
-    margin-right: 10%;
+
     
   }
   .Why-Choose-Us{
     text-align: center;
-    margin-left: 10%;
+
   }
 
 
@@ -1279,16 +1279,7 @@ color: black;
   font-size: 200%;
 }
 
-.About{
-  text-align: left;
-  
-  
-}
-.Why-Choose-Us{
-  text-align: left;
-  padding-top: 2%;
-  
-}
+
 
 
 }
@@ -1315,16 +1306,26 @@ color: black;
     margin-right: 5%;
   }
   .About{
-    text-align: left;
+    text-align: center;
     
     
   }
   .Why-Choose-Us{
-    text-align: left;
+    text-align: center;
     padding-top: 2%;
     
   }
+  .comp2{
+    border-radius: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .card2{
+    margin-top: 5%;
+  
+  }
   .comp4 .header4{
     font-size: 200%;
   }
@@ -1369,11 +1370,33 @@ color: black;
     
   }
 
-  .content p{
+  .heroitems p{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 240%;
+    padding-top: 3%;
+    text-align: center;
+
+  }
+
+  .heroitems .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 140%;
+    padding-top: 5%;
+    text-align: center;
+
+  }
+
+  .content .mainbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    padding-top: 10%;
+    text-align: center;
 
   }
 
@@ -1385,21 +1408,6 @@ color: black;
 
 @media screen and (max-width: 600px) {
 
-  /* .main {
-    background-image: url("../Imgs/Background5.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
-  .comp3{
-    background-image: url("../Imgs/Background14.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  } */
 
   .gap{
     height: 40vh;;
@@ -1426,9 +1434,36 @@ color: black;
 
   }
 
-  .comp2 h1{
-    font-size: 180%;
+  .content .mainbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70%;
+    padding-top: 10%;
+    text-align: center;
+
   }
+
+  .comp2{
+    padding-bottom: 10%;
+  }
+
+  .card2{
+    margin-top: 13%;
+  
+  }
+
+  .img1{
+    background-image: none;
+    background-color: black;
+     display: flex;
+     max-height: max-content;
+     flex-direction: column;
+     padding-bottom: 3%;
+ 
+     border-radius: 5%;
+ } 
+
 
   .slider-wrapper {
     
@@ -1459,6 +1494,43 @@ color: black;
     margin-right: 3%;
     font-size: 75%;
   }
+
+  .Content1 p{
+    font-size: 140%;
+    line-height: 120%;
+  }
+
+  .Content2 p{
+    font-size: 140%;
+    line-height: 120%;
+  }
+
+  .scale1{
+    font-size: 120%;
+    margin-top: 1%;
+    margin-right: 2%;
+  }
+  .scale2{
+    font-size: 120%;
+    margin-top: 1%;
+    margin-right: 2%;
+  }
+  .scale3{
+    margin-top: 1%;
+    font-size: 120%;
+  }
+
+  .comp2{
+    border-radius: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card2 h1{
+    font-size: 350%;
+  }
+
 
   .comp4 .header4{
     font-size: 170%;

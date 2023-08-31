@@ -6,7 +6,7 @@ import videoBG1 from "../Imgs/VideoBG10.mp4"
 import videoBG2 from "../Imgs/VideoBG6.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import { styles } from "../Styles/Home.css";
-import { FaInstagramSquare, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaCircle, FaFlag } from "react-icons/fa";
 import { FaCheck, FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 import { ImageBackground } from 'react-native';
@@ -164,7 +164,7 @@ function Home() {
             < FaLinkedin className="scale1 Red" />
             </a>
             <a href="https://www.instagram.com/scratchzero_/" target="_blank">
-            < FaInstagramSquare className="scale2 Red" />
+            < FaInstagram className="scale2 Red" />
             </a>
             <a href="https://github.com/shahzill" target="_blank">
             < FaFacebookSquare className="scale3 Red" />
@@ -179,15 +179,10 @@ function Home() {
     
     {/* third section */}
 
-    <div className="notch">
-    <svg className="svgNotch" viewBox="0 0 1263 291" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><path fill="rgba(0, 0, 0, 1)" d="M 0 291 C 308 291 308 73 616 73 L 616 73 L 616 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(0, 0, 0, 1)" d="M 615 73 C 939 73 939 291 1263 291 L 1263 291 L 1263 0 L 615 0 Z" stroke-width="0"></path> </svg></div>
-   
 
     <div className="comp2" id="Our-Services">
 
-    
-
-
+  
       <Fade bottom>
         <div className="ServicesH">
         <h1>

@@ -162,8 +162,8 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   backface-visibility: hidden;
 }
 
-.Pfront {
-  background-image: url("../Imgs/gandadesign.png");
+.PDMfront1 {
+  background-image: url("../Imgs/DGM3.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
 }
 
-.Pback {
+.PDMback1 {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
   display: flex;
@@ -183,14 +183,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     overflow: hidden;
 }
 
-.Pfront2 {
-    background-image: url("../Imgs/Card2.jpeg");
+.PDMfront2 {
+    background-image: url("../Imgs/DGM2.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
-.Pback2 {
+.PDMback2 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
@@ -202,14 +202,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
       overflow: hidden;
 }
 
-.Pfront3 {
-    background-image: url("../Imgs/Card3.jpeg");
+.PDMfront3 {
+    background-image: url("../Imgs/DGM8.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
-.Pback3 {
+.PDMback3 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
@@ -221,14 +221,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
       overflow: hidden;
 }
 
-.Pfront4 {
-    background-image: url("../Imgs/Card4.jpeg");
+.PDMfront4 {
+    background-image: url("../Imgs/DGM4.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
-.Pback4 {
+.PDMback4 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
@@ -240,14 +240,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
       overflow: hidden;
 }
 
-.Pfront5 {
-    background-image: url("../Imgs/Card5.jpeg");
+.PDMfront5 {
+    background-image: url("../Imgs/DGM5.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
-.Pback5 {
+.PDMback5 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
@@ -259,14 +259,299 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
       overflow: hidden;
 }
 
-.Pfront6 {
-    background-image: url("../Imgs/Card6.jpeg");
+.PDMfront6 {
+    background-image: url("../Imgs/DGM6.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
-.Pback6 {
+.PDMback6 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PDMfront7 {
+    background-image: url("../Imgs/DGM7.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PDMback7 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PDMfront8 {
+    background-image: url("../Imgs/DGM9.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PDMback8 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PDMfront9 {
+    background-image: url("../Imgs/DGM1.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PDMback9 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront1 {
+    background-image: url("../Imgs/WD1.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback1 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront2 {
+    background-image: url("../Imgs/WD3.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback2 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront3 {
+    background-image: url("../Imgs/WD11.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback3 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront4 {
+    background-image: url("../Imgs/WD7.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback4 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront5 {
+    background-image: url("../Imgs/WD10.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback5 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront6 {
+    background-image: url("../Imgs/WD6.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback6 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront7 {
+    background-image: url("../Imgs/WD2.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback7 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront8 {
+    background-image: url("../Imgs/WD8.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback8 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront9 {
+    background-image: url("../Imgs/WD9.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback9 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront10 {
+    background-image: url("../Imgs/WD5.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback10 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront11 {
+    background-image: url("../Imgs/WD4.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback11 {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+      overflow: hidden;
+}
+
+.PWDfront12 {
+    background-image: url("../Imgs/WD12.png");
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+}
+.PWDback12 {
     background-color: #3a3a3a;
     transform: rotateY(180deg);
     display: flex;
