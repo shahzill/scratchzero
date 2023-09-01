@@ -111,7 +111,7 @@ function Projects() {
                 <h1><span class="gradient-underline">WEB DEVELOPMENT</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack2"><img className="leftArrow" src={leftArrow1} /></div>
+            <div className="Left control prev" id="slideBack2"><img className="leftArrow" src={leftArrow1} alt="leftArrow"/></div>
             <div className="Projects">
             
             <div className="cards">
@@ -281,6 +281,33 @@ function Projects() {
                     </div>
                 </div>
 
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront13"></div>
+                <div class="Pback PWDback13">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
+
+                <div class="Pcontainer">
+                <div class="card">
+                <div class="Pfront PWDfront14"></div>
+                <div class="Pback PWDback14">
+                    <p>Additional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the cardAdditional info on the back of the card</p>
+                    <a href="https://reservim.com/" target="_blank">
+                <button className="projectButton">
+                    View Project
+                </button></a>
+
+                    </div>
+                    </div>
+                </div>
 
             
            
@@ -289,7 +316,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next" id="slide2"><img className="rightArrow" src={rightArrow1} /></div>
+            <div className="Right control next" id="slide2"><img className="rightArrow" src={rightArrow1}  alt="leftArrow"/></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>
@@ -308,7 +335,7 @@ function Projects() {
                 <h1><span class="gradient-underline">DIGITAL MARKETING</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack"><img className="leftArrow" src={leftArrow1} /></div>
+            <div className="Left control prev" id="slideBack"><img className="leftArrow" src={leftArrow1} alt="LeftArrow"/></div>
             <div className="Projects">
             
             <div className="cards">
@@ -443,7 +470,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next" id="slide"><img className="rightArrow" src={rightArrow1} /></div>
+            <div className="Right control next" id="slide"><img className="rightArrow" src={rightArrow1} alt="rightArrow"/></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>
@@ -461,7 +488,7 @@ function Projects() {
                 <h1><span class="gradient-underline">SOFTWARE DEVELOPMENT</span>  </h1> 
             </div>
             <div className="Projects-Arrows">
-            <div className="Left control prev" id="slideBack1"><img className="leftArrow" src={leftArrow1} /></div>
+            <div className="Left control prev" id="slideBack1"><img className="leftArrow" src={leftArrow1} alt="leftArrow" /></div>
             <div className="Projects">
             
             <div className="cards">
@@ -554,7 +581,7 @@ function Projects() {
             </div>
             
             </div>
-            <div className="Right control next" id="slide1"><img className="rightArrow" src={rightArrow1} /></div>
+            <div className="Right control next" id="slide1"><img className="rightArrow" src={rightArrow1} alt="rightArrow"/></div>
             </div>
             <div className="Pquote1">
             <p>OUR TEAM OF SKILLED DEVELOPER, DESIGNERS, AND ENGINEERS COLLABORATE TO CRAFT SOLUTIONS THAT DRIVE INNVOVATION AND ELEVATE BUSINESS</p>

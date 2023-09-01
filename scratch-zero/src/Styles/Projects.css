@@ -172,7 +172,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 }
 
 .PDMback1 {
-  background-color: #3a3a3a;
+  background-color: #14151D;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback2 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback3 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback4 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -248,7 +248,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback5 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -267,7 +267,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback6 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -286,7 +286,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback7 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -305,7 +305,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback8 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -324,7 +324,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PDMback9 {
-    background-color: #3a3a3a;
+    background-color: #14151D;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -343,7 +343,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback1 {
-    background-color: #3a3a3a;
+    background-color: #A62B2B;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -362,7 +362,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback2 {
-    background-color: #3a3a3a;
+    background-color: #F0EFEF;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -381,7 +381,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback3 {
-    background-color: #3a3a3a;
+    background-color: #42121A;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -400,7 +400,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback4 {
-    background-color: #3a3a3a;
+    background-color: #E4F7F8;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -412,14 +412,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 }
 
 .PWDfront5 {
-    background-image: url("../Imgs/WD10.png");
+    background-image: url("../Imgs/WD13.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
 .PWDback5 {
-    background-color: #3a3a3a;
+    background-color: #186069;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -438,7 +438,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback6 {
-    background-color: #3a3a3a;
+    background-color: #FF72AE;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -457,7 +457,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback7 {
-    background-color: #3a3a3a;
+    background-color: #1B2022;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -476,7 +476,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback8 {
-    background-color: #3a3a3a;
+    background-color: #060405;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -495,7 +495,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback9 {
-    background-color: #3a3a3a;
+    background-color: #FFAB71;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -514,7 +514,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback10 {
-    background-color: #3a3a3a;
+    background-color: #DBFFE6;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -533,7 +533,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   
 }
 .PWDback11 {
-    background-color: #3a3a3a;
+    background-color: #FFDDA6;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -545,14 +545,14 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 }
 
 .PWDfront12 {
-    background-image: url("../Imgs/WD12.png");
+    background-image: url("../Imgs/WD10.png");
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
   
 }
 .PWDback12 {
-    background-color: #3a3a3a;
+    background-color: #201F1F;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -561,6 +561,44 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+}
+
+.PWDfront13 {
+  background-image: url("../Imgs/WD14.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.PWDback13 {
+  background-color: #9AC7CD;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+}
+
+.PWDfront14 {
+  background-image: url("../Imgs/WD12.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.PWDback14 {
+  background-color: #5B5B5B;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
 }
   
 

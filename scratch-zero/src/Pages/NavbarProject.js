@@ -29,12 +29,13 @@ function Navbar() {
 
 	return (
 		<header className={navColor ? 'active' : ""}>
-			<Link className="imageLink" smooth to="/#Home" ><img src={logo}/></Link>
+			<Link className="imageLink" smooth to="/#Home" ><img src={logo} alt="logo"/></Link>
 			<nav ref={navRef}>
 
 				<Link className="Link" smooth to="#Web-Development" >Web Development</Link>
-				<Link className="Link" smooth to="#Digital-Marketing" >Digital Marketing</Link>
 				<Link className="Link" smooth to="#Software-Development" >Software Development</Link>
+				<Link className="Link" smooth to="#Digital-Marketing" >Digital Marketing</Link>
+
 
 				<Link className="Link" smooth to="#ContactUs" >Contact Us</Link>
 				<button

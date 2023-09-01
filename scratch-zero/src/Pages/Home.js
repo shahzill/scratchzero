@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import videoBG1 from "../Imgs/VideoBG10.mp4"
 import videoBG2 from "../Imgs/VideoBG6.mp4"
 import Background2 from "../Imgs/Background2.jpg"
+import curve from "../Imgs/notch.png"
 import { styles } from "../Styles/Home.css";
 import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaCircle, FaFlag } from "react-icons/fa";
@@ -24,6 +25,7 @@ import UI from "../Imgs/UI.json";
 import DIGITAL from "../Imgs/DIGITAL.json";
 import MOBD from "../Imgs/MOBD.json";
 import DEBS from "../Imgs/DEBS.json";
+import { Cursor, useTypewriter} from 'react-simple-typewriter';
 
 // SPLIT TEXT ATTEMPT:
 import { SplitText, LineWrapper, WordWrapper, LetterWrapper } from '@cyriacbr/react-split-text';
@@ -78,6 +80,7 @@ function Home() {
     }
   };
 
+
   return (
     <>
     {/* website hero */}
@@ -90,7 +93,8 @@ function Home() {
             <span>Scratch</span> 
             <span className="Red">Zero</span>
             </h1>
-            <p><ReactTyped className="typing" strings={["Beyond Infinity"]} typeSpeed={100} /></p>
+             <p><ReactTyped className="typing" strings={["Innovative Solutions", "Empowering Progress", "Redefining Excellence"]} typeSpeed={100} backSpeed={50} loop /></p> 
+   
             <div className="a">Solution to all your IT problems</div>
             
 
@@ -173,16 +177,17 @@ function Home() {
             </div>
         </div>
         
+        
       
 
     </div>
     
     {/* third section */}
 
-
+    <div className="curve"><img src={curve} /></div>
     <div className="comp2" id="Our-Services">
 
-  
+
       <Fade bottom>
         <div className="ServicesH">
         <h1>
@@ -190,6 +195,7 @@ function Home() {
         </h1>
         </div>
       </Fade>
+      
     
       {/* <div className="services">
         <Fade left>
@@ -399,8 +405,10 @@ function Home() {
     <div class="card">
       <div class="front front1"></div>
       <div class="back back1">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <p className="languages">Laravel | HTML | MySQL | PHP</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
+        
         <div className="CardButtons">
         <a href="https://mohkm.com/" target="_blank">
       <button className="projectButton">
@@ -413,26 +421,30 @@ function Home() {
   </div>
   <div class="container">
     <div class="card">
-      <div class="front front2"></div>
-      <div class="back back2">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <div class="front front5"></div>
+      <div class="back back5">
+      <p className="languages">Codeigniter | MySQL | PHP</p>
+        <p className="cardInfo">Cuddlynest, created using CodeIgniter, offers key features such as image management, extensive email templates, 
+          multilingual property descriptions, and engaging random property image displays on the homepage.</p>
         <div className="CardButtons">
-        <a href="https://doctorfindy.com/" target="_blank">
+        <a href="https://www.cuddlynest.com/" target="_blank">
       <button className="projectButton">
         View Project
       </button></a>
       
       </div>
+
       </div>
     </div>
   </div>
+  
   <div class="container">
     <div class="card">
       <div class="front front3"></div>
       <div class="back back3">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <p className="languages">Laravel | VueJS</p>
+        <p className="cardInfo">We partnered on Spera, a powerful project management system with Laravel and Vue.js. It streamlines projects, 
+        client info, invoices, team compensation, support tickets, messaging, and quotations, serving as a valuable solution for businesses.</p>
         <div className="CardButtons">
         <a href="https://spera.io/products/project-management/" target="_blank">
       <button className="projectButton">
@@ -445,10 +457,27 @@ function Home() {
   </div>
   <div class="container">
     <div class="card">
+      <div class="front front8"></div>
+      <div class="back back8">
+      <p className="languages">Laravel | HTML | MySQL | PHP</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
+        <div className="CardButtons">
+        <a href="https://scentrevelation.com/" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
       <div class="front front4"></div>
       <div class="back back4">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <p className="languages">Laravel | HTML | MySQL | PHP</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
         <div className="CardButtons">
         <a href="https://reservim.com/" target="_blank">
       <button className="projectButton">
@@ -459,29 +488,15 @@ function Home() {
       </div>
     </div>
   </div>
-    <div class="container">
-    <div class="card">
-      <div class="front front5"></div>
-      <div class="back back5">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
-        <div className="CardButtons">
-        <a href="https://www.cuddlynest.com/" target="_blank">
-      <button className="projectButton">
-        View Project
-      </button></a>
-      
-      </div>
-
-      </div>
-    </div>
-  </div>
+ 
+   
   <div class="container">
     <div class="card">
       <div class="front front6"></div>
       <div class="back back6">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <p className="languages">Laravel | HTML | MySQL | PHP</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
         <div className="CardButtons">
         <a href="https://www.gkchattels.com/" target="_blank">
       <button className="projectButton">
@@ -494,10 +509,28 @@ function Home() {
   </div>
   <div class="container">
     <div class="card">
+      <div class="front front2"></div>
+      <div class="back back2">
+      <p className="languages">Laravel | VueJS</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
+        <div className="CardButtons">
+        <a href="https://doctorfindy.com/" target="_blank">
+      <button className="projectButton">
+        View Project
+      </button></a>
+      
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
       <div class="front front7"></div>
       <div class="back back7">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
+      <p className="languages">Laravel | HTML | MySQL | PHP</p>
+        <p className="cardInfo">Mohkm, a web-based CRM using Laravel and Smarty templates. It streamlines account, product, service, and sales management, 
+          features an SMS module, offers multilingual support, and is accessible via web and app.</p>
         <div className="CardButtons">
         <a href="https://thecarmedics.ae/" target="_blank">
       <button className="projectButton">
@@ -509,21 +542,8 @@ function Home() {
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="card">
-      <div class="front front8"></div>
-      <div class="back back8">
-        <h1>Back of Card</h1>
-        <p>Additional info on the back of the card</p>
-        <div className="CardButtons">
-        <a href="https://scentrevelation.com/" target="_blank">
-      <button className="projectButton">
-        View Project
-      </button></a>
-      </div>
-      </div>
-    </div>
-  </div>
+  
+  
   
   </div>
   <div className="LearnMore">
