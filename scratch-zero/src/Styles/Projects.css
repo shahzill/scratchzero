@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -113,6 +114,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 2%;
 
 }
 
@@ -144,6 +146,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     border-radius: 5%;
   }
 
+  .cardDM .Pfront{
+    border-radius: 5%;
+  }
+
   
   .Pcontainer:hover > .card {
     cursor: pointer;
@@ -160,6 +166,10 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
   backface-visibility: hidden;
+}
+
+.Pback p{
+  font-family:'Poppins';
 }
 
 .PDMfront1 {
@@ -352,6 +362,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront2 {
@@ -371,6 +382,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront3 {
@@ -390,6 +402,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront4 {
@@ -409,6 +422,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront5 {
@@ -428,6 +442,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront6 {
@@ -447,6 +462,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront7 {
@@ -466,6 +482,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront8 {
@@ -485,6 +502,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront9 {
@@ -504,6 +522,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront10 {
@@ -523,6 +542,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront11 {
@@ -542,6 +562,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront12 {
@@ -561,6 +582,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     padding-left: 2%;
     padding-right: 2%;
       overflow: hidden;
+      gap: 10%;
 }
 
 .PWDfront13 {
@@ -580,6 +602,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   padding-left: 2%;
   padding-right: 2%;
     overflow: hidden;
+    gap: 10%;
 }
 
 .PWDfront14 {
@@ -587,6 +610,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 
 }
 .PWDback14 {
@@ -599,8 +623,123 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
   padding-left: 2%;
   padding-right: 2%;
     overflow: hidden;
+    gap: 10%;
+}
+
+.PWDfront15 {
+  background-image: url("../Imgs/WD15.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.PWDback15 {
+  background-color: #FAFAFA;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+    gap: 10%;
+}
+
+.PWDfront16 {
+  background-image: url("../Imgs/WD16.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.PWDback16 {
+  background-color: #B1E1FF;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+    gap: 10%;
+}
+
+.PSDfront1 {
+  background-image: url("../Imgs/SWD4.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.PSDback1 {
+  background-color:white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+    font-size: 80%;
+    gap: 5%;
+
+}
+
+.PSDfront2 {
+  background-image: url("../Imgs/SWD12.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.PSDback2 {
+  background-color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+    font-size: 80%;
+    gap: 5%;
+
+}
+
+.PSDfront3 {
+  background-image: url("../Imgs/SWD14.png");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.PSDback3 {
+  background-color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+    overflow: hidden;
+    font-size: 80%;
+  gap: 5%;
+}
+
+.Pback .languagesSWD{
+  font-weight: 500;
 }
   
+.Pback .languages{
+  font-weight: 300;
+}
 
   
  .media-scroller{
@@ -609,6 +748,24 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     gap: 2%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
+ }
+
+ .black{
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+ }
+
+ .white{
+  color: azure;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+ }
+
+ .WDfont{
+  font-size: 140%;
  }
 
  .Projects-Arrows .Right{

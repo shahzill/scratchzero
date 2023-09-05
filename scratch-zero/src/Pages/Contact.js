@@ -52,7 +52,7 @@ const ContactUs = () => {
                     name='user_subject' required />
                     
                     <div className='writtenText'>
-                    <textarea className='query' placeholder='  Your Query' name='message' required 
+                    <textarea className='query' placeholder=' Please share your project specifics, budget, and questions' name='message' required 
                     cols="30" rows="10"></textarea>
                     </div>
                     </div>

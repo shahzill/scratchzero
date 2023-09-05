@@ -115,7 +115,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.4);
-  /* background-color: #000000cc; */
+
 }
 
 span :hover{
@@ -218,7 +218,7 @@ span :hover{
   width: 100%;
   min-height: 100vh;
   max-height: max-content;
-  /* background-color: black; */
+
 }
 
 .subcomp3{
@@ -241,8 +241,6 @@ span :hover{
   padding-left: 2%;
   padding-right: 2%;
 
-  /* background: linear-gradient(110deg, #591F16 60%, transparent 60%);
-  border-radius: 5%; */
   padding-bottom: 1%;
 }
 
@@ -308,20 +306,7 @@ span :hover{
   
   overflow: hidden;
 }
-/*
-.topNotch .notch{
 
-  background-color: black;
-
-  display: flex;
-  stroke: none;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  max-height: max-content;
-} */
 
 .notch .svgNotch{
   position: relative;
@@ -516,7 +501,7 @@ span :hover{
 
 .information1 .lottie1{
   text-align: center;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
   margin-top: 3%;
 }
 .information1 .lottie2{
@@ -743,24 +728,24 @@ border-radius: 16px;
 
   margin-top: 10%;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(30deg, #f4543c 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(30deg, #f4543c 80%, transparent 50%);
   text-align: left;
   font-family: "Oswald";
   color: azure;
   font-size: 80px;
-  padding-left: 10%;
+  padding-left: 2%;
   margin-bottom: 5%;
 }
 .package2 h1{
 
   margin-top: 10%;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(30deg, #f3443c 70%, transparent 50%);
+  background-image: -webkit-linear-gradient(30deg, #f4543c 90%, transparent 50%);
   text-align: left;
   font-family: "Oswald";
   color: azure;
   font-size: 80px;
-  padding-left: 10%;
+  padding-left: 2%;
   margin-bottom: 5%;
 }
 
@@ -768,12 +753,12 @@ border-radius: 16px;
 
   margin-top: 10%;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(30deg, #f3443c 65%, transparent 50%);
+  background-image: -webkit-linear-gradient(30deg, #f4543c 60%, transparent 50%);
   text-align: left;
   font-family: "Oswald";
   color: azure;
   font-size: 80px;
-  padding-left: 10%;
+  padding-left: 2%;
   margin-bottom: 5%;
 }
 
@@ -1075,16 +1060,7 @@ border-radius: 16px;
 }
 
 
-/* 
-.plan1, .plan2, .plan3{
-  border: 3px solid #f4543c;
-  -moz-box-shadow: 0 0 8px azure;
-  -webkit-box-shadow: 0 0 8px azure;
-  box-shadow: 0 0 8px azure;
-  border-radius: 25px;
-  padding: 4px;
-  background-color: black;
-}  */
+
 
 .pcontent{
   padding: 10px;
@@ -1114,7 +1090,7 @@ border-radius: 16px;
   margin-bottom: 5%;
   height: max-content;
   text-align: center;
-  /* outline: black solid 3px; */
+
   transition: 0.9s;
   padding-bottom: 5%;
 
@@ -1144,6 +1120,7 @@ border-radius: 16px;
 
 .single-price .pricingSubH{
   padding-bottom: 5%;
+  font-size: 95%;
   margin-left: 5%;
   margin-right: 5%;
   border-bottom: #d5d5d5 solid 2px;
@@ -1163,14 +1140,46 @@ border-radius: 16px;
   color: green;
 }
 
-.deals h4{
-  margin-left: 10%;
+.dealsDM h4{
+
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 15%;
   text-align: left;
+
   margin-bottom: 3%;
   font-size: 17px;
   color: black;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
+}
+
+
+
+.dealsWD h4{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: left;
+
+  margin-bottom: 3%;
+  font-size: 17px;
+  color: black;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.dealsSEO h4{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: left;
+
+  margin-bottom: 3%;
+  font-size: 17px;
+  color: black;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 .single-price .deals{
@@ -1218,7 +1227,7 @@ color: black;
 
 
 .price .monthH{
-  font-size: 70%;
+  font-size: 50%;
   font-weight: 100;
   font-family: "Oswald";
 }
@@ -1229,6 +1238,16 @@ color: black;
 
 .single-price:hover .btn-white::after{
   background-color: #f4543c;
+}
+
+.startingH{
+  position: relative;
+  font-size: 30%;
+  font-family: "Oswald";
+  font-weight: 100;
+  background-color: #f4543c;
+  margin-bottom: 10px;
+
 }
 
 
