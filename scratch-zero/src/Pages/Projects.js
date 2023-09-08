@@ -50,6 +50,18 @@ function Projects() {
             var container = document.getElementById('container2');
             sideScroll(container,'left',25,300,20);
         };
+
+        var button = document.getElementById('slide1');
+        button.onclick = function () {
+            var container = document.getElementById('container1');
+            sideScroll(container,'right',25,300,20);
+        };
+        
+        var back = document.getElementById('slideBack1');
+        back.onclick = function () {
+            var container = document.getElementById('container1');
+            sideScroll(container,'left',25,300,20);
+        };
         
         function sideScroll(element,direction,speed,distance,step){
             var scrollAmount = 0;
@@ -477,8 +489,9 @@ function Projects() {
       <div className="contact"><Contact></Contact></div>
       <div className="contact-quote">
         <div className="heading"><h1>Lets have a <span className="Red">chat</span></h1></div>
-        <p>We're here to connect, collaborate, and create solutions. Whether you have questions, 
-          ideas, or a project in mind.</p>
+        <p>Feel free to reach out via our form or email us at <strong><span className="Red">info@scratchzero.net</span></strong> to explore your 
+        concept, inquire, or engage in a conversation with us.</p>
+
       </div>
       </div>
     </div> 

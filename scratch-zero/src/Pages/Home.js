@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from "react";
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./Navbar";
 import Contact from "./Contact";
 import videoBG1 from "../Imgs/VideoBG10.mp4"
 import videoBG2 from "../Imgs/VideoBG6.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import curve from "../Imgs/notch.png"
+import { HashLink as Link} from 'react-router-hash-link'
 import { styles } from "../Styles/Home.css";
 import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { FaCircle, FaFlag } from "react-icons/fa";
@@ -16,6 +17,7 @@ import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
 import anime from 'animejs/lib/anime.es.js'
 import ReactTyped from "react-typed";
+import downArrow from "../Imgs/arrow.png"
 import { motion } from 'framer-motion';
 import Particles from '../components/Particles';
 import Lottie from 'react-lottie';
@@ -182,8 +184,10 @@ function Home() {
     </div>
     
     {/* third section */}
-
+    <Link smooth to="#Our-Services" ><div className="downArrow"><img src={downArrow} /></div></Link>
     <div className="curve"><img src={curve} /></div>
+
+
     <div className="comp2" id="Our-Services">
 
 
@@ -259,7 +263,7 @@ function Home() {
             
           </div>
           
-          <h1>SEO SERVICES</h1>
+          <h1 className="SeoServices">SEO SERVICES</h1>
           
           
         </div>

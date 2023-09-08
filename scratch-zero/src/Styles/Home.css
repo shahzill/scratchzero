@@ -193,10 +193,23 @@ span :hover{
 .curve img{
   height: 30%;
   width: 30%;
+
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 35%;
+  position: relative;
+  z-index: -1;
+}
+
+.downArrow img{
+
+  width: 2%;
+  height: 2%;
+  margin-left: 49%;
+  margin-right: 49%;
+  z-index: 1;
+  margin-bottom: -3%;
 }
 
 .comp2 h1{
@@ -732,7 +745,7 @@ border-radius: 16px;
   text-align: left;
   font-family: "Oswald";
   color: azure;
-  font-size: 80px;
+  font-size: 120%;
   padding-left: 2%;
   margin-bottom: 5%;
 }
@@ -744,7 +757,7 @@ border-radius: 16px;
   text-align: left;
   font-family: "Oswald";
   color: azure;
-  font-size: 80px;
+  font-size: 120%;
   padding-left: 2%;
   margin-bottom: 5%;
 }
@@ -757,7 +770,7 @@ border-radius: 16px;
   text-align: left;
   font-family: "Oswald";
   color: azure;
-  font-size: 80px;
+  font-size: 120%;
   padding-left: 2%;
   margin-bottom: 5%;
 }
@@ -809,11 +822,6 @@ border-radius: 16px;
 
 
 
-
-
-
-
-
 .contact-quote p{
   color: azure;
   font-size: 17px;
@@ -855,6 +863,7 @@ border-radius: 16px;
   justify-content: center;
   
 }
+
 
 
 
@@ -1196,7 +1205,7 @@ border-radius: 16px;
   background-color: black;
   color: azure;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-  transform: scale(1.1);
+  transform: scale(1.05);
   z-index: 1;
 
   outline: black solid 3px;
@@ -1329,6 +1338,25 @@ color: black;
   font-size: 200%;
 }
 
+.package2 h1{
+  font-size: 180%;
+}
+.package1 h1{
+  font-size: 180%;
+}
+.package3 h1{
+  font-size: 180%;
+}
+
+.contact-quote .heading{
+  font-size: 90%;
+}
+
+.comp6 .contact-quote{
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
 
 
 
@@ -1400,6 +1428,51 @@ color: black;
     padding-right: 10%;
   }
 
+  .comp4{
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .text-box{
+    margin-bottom: 5%;
+  }
+
+  .PricingSH{
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  
+  .single-price:hover{
+
+    transform: scale(1.05);
+
+  }
+
+  .single-price .package1{
+    font-size: 120%;
+  }
+  .single-price .package2{
+    font-size: 120%;
+  }
+  .single-price .package3{
+    font-size: 120%;
+  }
+
+  .wrapper3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .comp6 .contact-quote{
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
 
 }
 
@@ -1427,6 +1500,16 @@ color: black;
     align-items: center;
     margin-left: 30%;
   }
+  .downArrow img{
+
+    width: 3%;
+    height: 3%;
+    margin-left: 48.5%;
+    margin-right: 48.5%;
+    z-index: 1;
+    margin-bottom: -5%;
+  }
+
 
   .heroitems p{
     display: flex;
@@ -1458,7 +1541,16 @@ color: black;
 
   }
 
+  .comp5{
+    background-color: black;
+     background-image: none;
+      width: 100%;
+  
+  }
 
+  .ContactH{
+    margin-bottom: 5%;
+  }
 
 }
 
@@ -1492,6 +1584,16 @@ color: black;
     justify-content: center;
     align-items: center;
     margin-left: 25%;
+  }
+
+  .downArrow img{
+
+    width: 5%;
+    height: 5%;
+    margin-left: 47.5%;
+    margin-right: 47.5%;
+    z-index: 1;
+    margin-bottom: -7%;
   }
 
   .content p{
@@ -1600,6 +1702,10 @@ color: black;
     font-size: 350%;
   }
 
+  .card2 .SeoServices{
+    font-size: 400%;
+  }
+
 
   .comp4 .header4{
     font-size: 170%;
@@ -1625,6 +1731,28 @@ color: black;
     padding-bottom: 20%;
   }
     
+  .container {
+    width: 330px;
+    height: 450px;
+    margin-bottom: 10%;
+  }
+
+  .cards{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+
+  }
+
+  .LearnMore{
+    margin-bottom: 10%;
+  }
+
+  
+
+
 }
 
 

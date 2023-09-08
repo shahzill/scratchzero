@@ -196,7 +196,7 @@ button:hover {
     width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: #f4543c double 2px;
+    border-bottom: #f4543c solid 2px;
     color: azure;
     
 }
@@ -231,22 +231,33 @@ button:hover {
     }
 }
 
+
 @media screen and (max-width: 800px) {
+
+    .contactHeading{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 80%;
+    }
     .Info{
-       margin-left: 23%;
-       margin-right: 23%;
+        margin-left: 10%;
+        margin-right: 10%;
        display: flex;
        flex-direction: column;
    }
    .Info .name{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
    .FName{
     margin-bottom: 7%;
+    width: 50%;
    }
    .LName{
+
     margin-bottom: 7%;
    }
 
@@ -256,6 +267,11 @@ button:hover {
 
    .Sub{
     margin-bottom: 7%;
+   }
+
+   .CButton{
+        margin-left: 40%;
+        
    }
 }
 
