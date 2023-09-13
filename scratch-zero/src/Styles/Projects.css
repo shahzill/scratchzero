@@ -804,6 +804,11 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
  
 @media screen and (max-width: 1050px) {
+
+    .Pcontent1 .Ptitle{
+      padding-top: 1%;
+
+    }
     .Pcontent2{
         width: 100%;
         padding-top: 5%;
@@ -821,10 +826,83 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     .Pcontent2 .Projects-Arrows{
         width: 100%;
 
-    
+        
+    }
+
+    .Pcontent2 .Left{
+      display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 22%;
+    }
+    .Pcontent2 .Right{
+      display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 22%;
     }
     .Pcontent2 .Pquote1{
         width: 100%;
 
     }
+}
+
+@media screen and (max-width: 900px) {
+  .Pcontent1 .Ptitle{
+    margin-top: 5%;
+
+  }
+  .Pcontent2 .Left{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 30%;
+  }
+  .Pcontent2 .Right{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Pcontent1{
+    font-size: 80%;
+
+  }
+
+  .gradient-underline{
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Pquote1{
+    font-size: 70%;
+    
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Pcontent1 .Ptitle{
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  .Pcontent2 .Left{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 45%;
+  }
+  .Pcontent2 .Right{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 45%;
+  }
 }

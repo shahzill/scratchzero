@@ -17,7 +17,7 @@ import Canvas from "./Canvas";
 import { Helmet } from "react-helmet";
 import anime from 'animejs/lib/anime.es.js'
 import ReactTyped from "react-typed";
-import downArrow from "../Imgs/arrow.png"
+import downArrow from "../Imgs/arrow2.png"
 import { motion } from 'framer-motion';
 import Particles from '../components/Particles';
 import Lottie from 'react-lottie';
