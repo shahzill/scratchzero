@@ -2,8 +2,6 @@ import React, {useState, useEffect} from "react";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./Navbar";
 import Contact from "./Contact";
-import videoBG1 from "../Imgs/VideoBG10.mp4"
-import videoBG2 from "../Imgs/VideoBG6.mp4"
 import Background2 from "../Imgs/Background2.jpg"
 import curve from "../Imgs/notch.png"
 import { HashLink as Link} from 'react-router-hash-link'
@@ -466,11 +464,9 @@ function Home() {
   
   
   </div>
-  <div className="LearnMore">
-  <a href="/Projects">
-      <button className="projectButton">
-        <strong>View More Projects</strong>
-      </button></a>
+  <div className="LearnMore textbox">
+  <a href="/Projects" className="projectButton btn  btn-white btn-        animate">
+        <strong>View More Projects</strong></a>
       </div>
   
     </div>

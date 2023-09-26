@@ -69,6 +69,9 @@
   z-index: -1;
 }
 
+.content .mainbtn{
+  padding-top: 2%;
+}
 
 .content h1{
   font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +102,7 @@
   display: flex;
   justify-content: right;
 
-  padding-top: 3%;
+  padding-top: 0%;
 }
 
 
@@ -629,7 +632,15 @@ span :hover{
     padding: 5px 20px;
 
 }
+.btn1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
+.btn1:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -663,6 +674,7 @@ span :hover{
     transition: all .4s;
 }
 
+
 .btn-white::after {
     background-color: #f4543c;
 }
@@ -674,6 +686,7 @@ span :hover{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
+
 
 .single-price .btn:hover::after {
   transform: scaleX(1.1) scaleY(1.3);
@@ -687,7 +700,7 @@ span :hover{
 }
 
 .projectButton{
-  margin-bottom: 2%;
+  margin-top: 5%;
   color: azure;
   background-color: #f4543c;
   font-family: Arial, Helvetica, sans-serif;
@@ -784,6 +797,8 @@ border-radius: 16px;
     background-attachment: fixed; 
     max-height: max-content;
     width: 100%;
+    overflow-x: hidden;
+    padding-bottom: 5%;
 
 }
 
@@ -1608,10 +1623,16 @@ color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70%;
-    padding-top: 10%;
+    font-size: 50%;
+    padding-top: 15%;
     text-align: center;
 
+  }
+
+  .mainbtn .btn{
+    font-size: 120%;
+    padding-left: 7%;
+    padding-right: 7%;
   }
 
   .comp2{
@@ -1666,6 +1687,10 @@ color: black;
     font-size: 75%;
   }
 
+  .Social-Links .Content3{
+    font-size: 150%;
+  }
+
   .Content1 p{
     font-size: 140%;
     line-height: 120%;
@@ -1689,6 +1714,16 @@ color: black;
   .scale3{
     margin-top: 1%;
     font-size: 120%;
+  }
+
+  .scale1:hover{
+    transform: scale(1.2);
+  }
+  .scale2:hover{
+    transform: scale(1.2);
+  }
+  .scale3:hover{
+    transform: scale(1.2);
   }
 
   .comp2{
