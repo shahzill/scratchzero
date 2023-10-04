@@ -700,7 +700,7 @@ span :hover{
 }
 
 .projectButton{
-  margin-top: 5%;
+ 
   color: azure;
   background-color: #f4543c;
   font-family: Arial, Helvetica, sans-serif;
@@ -1094,7 +1094,7 @@ border-radius: 16px;
 .back .CardButtons{
   display: flex;
   flex-direction: row;
-  gap: 5%;
+  padding-bottom: 7%;
 }
 
 .wrapper3{
