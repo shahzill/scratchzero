@@ -8,6 +8,7 @@
   }
 
 
+
 .PComp1{
     width: 100%;
     max-height: max-content;
@@ -776,7 +777,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
     align-content: center;
     margin-right: 2%;
     font-size: 200%;
-    z-index: 10;
+    z-index: 1;
     color: #f4543c;
 
  }
@@ -790,7 +791,7 @@ background: linear-gradient(90deg, rgba(244,84,60,1) 7%, rgba(0,0,0,1) 91%);
 
     margin-left: 2%;
     font-size: 200%;
-    z-index: 10;
+    z-index: 1;
     color: #f4543c;
  }
 

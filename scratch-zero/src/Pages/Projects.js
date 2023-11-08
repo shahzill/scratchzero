@@ -88,7 +88,9 @@ function Projects() {
 
     return(
         <>
+        
         <React.Fragment><Navbar /></React.Fragment>
+        
         <div className='PComp1'>  
             <div className="Pcontent1">
 
