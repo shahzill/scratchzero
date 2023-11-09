@@ -425,6 +425,7 @@ span :hover{
   transform: 0.5s ease-in-out;
   margin-bottom: 5%;
   padding-bottom: 3%;
+  z-index: 1;
 
 }
 
@@ -458,7 +459,7 @@ span :hover{
   width: 100%;
   height: 100%;
   background: linear-gradient(0deg, rgba(128,36,36,0.7120973389355743) 0%, rgba(207,72,52,0.936186974789916) 31%);  
-  z-index: 2;
+  z-index: 1;
   transition: 0.5s all;
   opacity: 0;
   border-radius: 5%;
@@ -500,11 +501,13 @@ span :hover{
   font-size: 20px;
   line-height: 30px;
   margin-top: -30%;
+  
 } 
 
 .card2:hover .information1{
   opacity: 1;
   transform:  translateY(0px);
+  
 }
 
 .information1{
